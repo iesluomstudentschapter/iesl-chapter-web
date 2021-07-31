@@ -1,0 +1,79 @@
+<!-- ========== topbar =======================-->
+<nav class="navbar navbar-expand-lg navbar-light p-1" style="background-color: #ffffff;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="">
+      <img src="assets/img/uom_yms.png" alt="" height="10%" width="10%">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['projects']" routerLinkActive="active" href="/projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['registrations']" routerLinkActive="active" href="/registrations">Registrations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['about']" routerLinkActive="active" href="/about">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['contact']" routerLinkActive="active" href="/contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Topbar-->
+
+<router-outlet></router-outlet>
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 footer-info">
+            <h3>IESL Student Chapter - University of Moratuwa</h3>
+            <h4>Young Engineers for a Better Future</h4>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Bandaranayake Mawatha, <br>
+              Moratuwa 10400 <br>
+              <strong>Email:</strong> iesluomstudentschapter@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="https://www.facebook.com/IESLstUOM/" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="https://lk.linkedin.com/company/iesluom" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="https://iesl.lk/">IESL</a></li>
+              <li><a href="https://iesl.lk/index.php?option=com_chapters&view=committees&stdcom=181&Itemid=224&lang=en">IESL YMS</a></li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <img src="assets/img/uom_iesl_yms.png" alt="" class="img-fluid">
+      </div>
+        
+    </div>
+  </div>
+
+  
+    </div>
+</footer>
+<!-- End Footer -->
