@@ -8,7 +8,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { RegistrationsComponent } from './pages/registrations/registrations.component';
-import { ProjectItemComponent } from './project-item/project-item.component';
+import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
+import { ProjectService } from './services/project.service';
 
 @NgModule({
   declarations: [
@@ -18,13 +19,13 @@ import { ProjectItemComponent } from './project-item/project-item.component';
     ContactComponent,
     ProjectsComponent,
     RegistrationsComponent,
-    ProjectItemComponent
+    ProjectDetailsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ProjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
