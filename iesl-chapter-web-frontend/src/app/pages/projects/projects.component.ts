@@ -14,7 +14,12 @@ export class ProjectsComponent implements OnInit {
   constructor(private router: Router, private _projectService: ProjectService) { }
 
   ngOnInit(): void {
-    this.projects = this._projectService.getProjects();
+    this._projectService.getProjects()
+      .subscribe(
+        data => {
+          this.projects = data.filter(item => item.category === "on-going");
+        }
+      );
   }
 
   onSelect(project: any){

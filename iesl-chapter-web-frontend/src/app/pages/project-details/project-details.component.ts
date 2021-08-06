@@ -12,6 +12,8 @@ export class ProjectDetailsComponent implements OnInit {
 
   public projectId: any;
 
+  projects : Project[] = [];
+
   project: Project = new Project();
 
   constructor(private route: ActivatedRoute, private _projectService: ProjectService) { }
@@ -19,11 +21,14 @@ export class ProjectDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.projectId = this.route.snapshot.paramMap.get('id');;
 
-    this.project = this._projectService.getProjects().filter(
-      item => item.id == this.projectId 
-    )[0];
-
-    console.log(this.project.images);
+    this._projectService.getProjects()
+      .subscribe(
+        data => {
+          this.project = data.filter(item => item.id == this.projectId)[0];
+        }
+      );
   }
+
+
 
 }

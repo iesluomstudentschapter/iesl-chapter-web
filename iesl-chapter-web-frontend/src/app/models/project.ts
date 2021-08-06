@@ -4,4 +4,5 @@ export class Project {
     brief: any;
     description: any;
     images: any;
+    category: string = "on-going";
 }
