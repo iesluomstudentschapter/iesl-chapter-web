@@ -11,6 +11,7 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { RegistrationsComponent } from './pages/registrations/registrations.component';
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ProjectService } from './services/project.service';
+import { RegistrationDetailsComponent } from './pages/registration-details/registration-details.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectService } from './services/project.service';
     ContactComponent,
     ProjectsComponent,
     RegistrationsComponent,
-    ProjectDetailsComponent
+    ProjectDetailsComponent,
+    RegistrationDetailsComponent
   ],
   imports: [
     BrowserModule,

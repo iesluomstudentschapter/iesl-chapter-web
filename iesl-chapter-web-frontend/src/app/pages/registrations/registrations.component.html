@@ -1,22 +1,23 @@
-<!-- ======= On going project Section ======= -->
+<!-- ======= Registration Section ======= -->
 <section id="services" class="section-bg">
     <div class="container" data-aos="fade-up">
   
         <header class="section-header">
-            <h3>Registrations</h3>
+          <h3>Registrations</h3>
         </header>
   
-              <div class="box text-center" data-aos="zoom-in" data-aos-delay="100">
-                <div class="icon"><i class="bi bi-briefcase" style="color: #ff689b;"></i></div>
-                <h4 class="title"><a href="">IESL student membership Registration</a></h4>
-                <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              </div>
-              <div class="box text-center" data-aos="zoom-in" data-aos-delay="200">
-                <div class="icon"><i class="bi bi-card-checklist" style="color: #e9bf06;"></i></div>
-                <h4 class="title"><a href="">Event Registration</a></h4>
-                <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-              </div>
+        <div class="box text-center" data-aos="zoom-in" data-aos-delay="100">
+          <h4 class="title">IESL student membership Registration</h4>
+          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+        </div>
+
+        <div (click)="onSelect(registration)" class="box text-center" data-aos="zoom-in" data-aos-delay="200" *ngFor="let registration of registrations">
+          <h4 class="title">{{registration.name}}</h4>
+          <p class="description">{{registration.brief}}</p>
+          <br/>
+          <p class="description"><a href={{registration.link}}>{{registration.link}}</a></p>
+        </div>
   
     </div>
 </section>
-<!-- End On going project Section -->
+<!-- End Registration Section -->

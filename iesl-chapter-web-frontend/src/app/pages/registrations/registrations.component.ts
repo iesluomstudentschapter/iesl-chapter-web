@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { Registration } from 'src/app/models/registration';
+import { RegistrationService } from 'src/app/services/registration.service';
 
 @Component({
   selector: 'app-registrations',
@@ -7,9 +10,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationsComponent implements OnInit {
 
-  constructor() { }
+  registrations : Registration[] = [];
+
+  constructor(private router: Router, private _registrationService: RegistrationService) { }
 
   ngOnInit(): void {
+    this._registrationService.getRegistrations()
+      .subscribe(
+        data => {
+          this.registrations = data;
+        }
+      );
+  }
+
+  onSelect(registration: any){
+    this.router.navigate(['registrations', registration.id]);
   }
 
 }
