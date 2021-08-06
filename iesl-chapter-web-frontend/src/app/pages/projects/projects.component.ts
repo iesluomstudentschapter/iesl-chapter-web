@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router'
+import { Project } from 'src/app/models/project';
 import { ProjectService } from 'src/app/services/project.service';
 
 @Component({
@@ -9,7 +10,10 @@ import { ProjectService } from 'src/app/services/project.service';
 })
 export class ProjectsComponent implements OnInit {
 
-  projects : any[] = [];
+  projects: Project[] = [];
+  onGoingProjects: Project[] = [];
+  upComingProjects: Project[] = [];
+  pastProjects: Project[] = [];
 
   constructor(private router: Router, private _projectService: ProjectService) { }
 
@@ -17,7 +21,10 @@ export class ProjectsComponent implements OnInit {
     this._projectService.getProjects()
       .subscribe(
         data => {
-          this.projects = data.filter(item => item.category === "on-going");
+          this.projects = data;
+          this.onGoingProjects = this.projects.filter(item => item.category === "on-going");
+          this.upComingProjects = this.projects.filter(item => item.category === "up-coming");
+          this.pastProjects = this.projects.filter(item => item.category === "past");
         }
       );
   }

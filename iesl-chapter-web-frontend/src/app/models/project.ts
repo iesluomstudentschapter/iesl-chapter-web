@@ -5,4 +5,5 @@ export class Project {
     description: any;
     images: any;
     category: string = "on-going";
+    filter: any;
 }
