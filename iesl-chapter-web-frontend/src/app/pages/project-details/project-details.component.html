@@ -1,13 +1,17 @@
-<div class="container" data-aos="fade-up">
+<section id="about">
 
-    <h3 class="text-center">{{project.name}}</h3>
+  <div class="container" data-aos="fade-up">
 
-    <p>
-      {{project.description}}
-    </p>     
+      <h3 class="text-center">{{project.name}}</h3>
 
-</div>
+      <p>
+        {{project.description}}
+      </p>     
 
-<div class="container">
-  <img src={{photo}} width="400" class="rounded mx-auto d-block m-4" data-aos="flip-left" *ngFor="let photo of project.images"/>
-</div>
+  </div>
+
+  <div class="container">
+    <img src={{photo}} width="400" class="rounded mx-auto d-block m-4" data-aos="flip-left" *ngFor="let photo of project.images"/>
+  </div>
+
+</section>
