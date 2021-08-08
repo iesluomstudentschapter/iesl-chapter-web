@@ -41,9 +41,22 @@ router.get('/:id', async (req, res, next) => {
     }
 });
 
+router.put('/:id', async (req, res, next) => {
+    try{
+        const project = await Project.updateOne({"_id": req.params.id}, req.body);
+        
+        res.status(200).json("project updated");
+    } catch(err){
+        if(err.name === "CastError")
+            res.status(204).send("No content");
+        else
+            res.status(500).send(err);
+    }
+});
+
 router.delete('/:id', async (req, res, next) => {
     try{
-        await Project.findOneAndDelete(req.params.id);
+        await Project.deleteOne({"_id": req.params.id});
 
         res.status(200).send("project deleted");
     } catch(err){
