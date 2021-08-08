@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Update } from 'src/app/models/update';
+import { UpdateService } from 'src/app/services/update.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  updates: Update[] = [];
+  
+  constructor(private _updateService: UpdateService) { }
 
   ngOnInit(): void {
+    this._updateService.getRegistrations()
+      .subscribe(
+        data => this.updates = data
+      );
   }
 
 }

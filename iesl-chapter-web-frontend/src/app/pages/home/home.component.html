@@ -135,126 +135,23 @@
 </section><!-- End About Section -->
 
 <!-- ======= Update Section ======= -->
-<section id="portfolio" class="clearfix">
+<section id="services" class="section-bg">
   <div class="container" data-aos="fade-up">
 
-    <header class="section-header">
-      <h3 class="section-title">Update</h3>
-    </header>
+      <header class="section-header">
+          <h3>Updates</h3>
+      </header>
 
-    <div class="row" data-aos="fade-up" data-aos-delay="100">
-      <div class="col-lg-12">
-        <ul id="portfolio-flters">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-Hackthon">Hackthon</li>
-          <li data-filter=".filter-card">Talk to school</li>
-          <li data-filter=".filter-web">Talk to Uni</li>
-        </ul>
-      </div>
-    </div>
+      <div class="row justify-content-center">
 
-    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Hackthon">
-        <a href="portfolio-details.html">
-          <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/app1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Hackthon Xtreme 2019</strong></div>
+          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100" *ngFor="let update of updates">
+            <div class="box">
+              <a href={{update.link}}><h4 class="title">{{update.name}}</h4></a>
+              <p class="description">{{update.description}}</p>
             </div>
           </div>
-        </a>
+    
       </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/web3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Web 3</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Hackthon">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/app2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>App 2</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/card2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Card 2</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/web2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Web 2</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-Hackthon">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/app3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>App 3</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/card1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Card 1</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/card3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Card 3</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        <div class="portfolio-wrap">
-          <a href="portfolio-details.html">
-            <img src="assets/img/portfolio/web1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info text-white">
-              <div class="h4 bg-primary"><strong>Web 1</strong></div>
-            </div>
-          </a>
-        </div>
-      </div>
-
-    </div>
 
   </div>
 </section>
