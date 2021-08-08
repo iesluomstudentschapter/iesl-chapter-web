@@ -1,0 +1,54 @@
+var express = require('express');
+var router = express.Router();
+const Project = require('../models/project') 
+
+router.get('/', async (req, res, next) => {
+    try{
+        const projects = await Project.find();
+        
+        res.status(200).json(projects);
+    } catch(err){
+        res.status(500).send(err);
+    }
+});
+
+router.post('/', async (req, res, next) => {
+    try{
+        const project = new Project({
+            name: req.body.name,
+            brief: req.body.brief,
+            description: req.body.description
+        })
+
+        await project.save();
+
+        res.status(201).send("project inserted");
+    } catch(err){
+        res.status(500).send(err);
+    }
+});
+
+router.get('/:id', async (req, res, next) => {
+    try{
+        const project = await Project.findById(req.params.id);
+        
+        res.status(200).json(project);
+    } catch(err){
+        if(err.name === "CastError")
+            res.status(204).send("No content");
+        else
+            res.status(500).send(err);
+    }
+});
+
+router.delete('/:id', async (req, res, next) => {
+    try{
+        await Project.findOneAndDelete(req.params.id);
+
+        res.status(200).send("project deleted");
+    } catch(err){
+        res.status(500).send(err);
+    }
+});
+
+module.exports = router;
