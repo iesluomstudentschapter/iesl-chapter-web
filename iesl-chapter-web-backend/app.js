@@ -8,6 +8,7 @@ var mongoose = require('mongoose');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var projectsRouter = require('./routes/projects');
+var loginRouter = require('./routes/login');
 
 const db_url = "mongodb://localhost/iesl-web"; 
 
@@ -26,6 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/projects', projectsRouter);
+app.use('/login', loginRouter);
 
 mongoose.connect(db_url, {useNewUrlParser: true});
 const con = mongoose.connection;
