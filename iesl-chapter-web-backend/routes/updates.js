@@ -1,13 +1,13 @@
 var express = require('express');
 var router = express.Router();
-const Project = require('../models/project');
+const Update = require('../models/update');
 const checkIfAuthenticated = require('../middleware/auth');
 
 router.get('/', async (req, res, next) => {
     try{
-        const projects = await Project.find();
+        const update = await Update.find();
         
-        res.status(200).json(projects);
+        res.status(200).json(update);
     } catch(err){
         res.status(500).send(err);
     }
@@ -15,15 +15,15 @@ router.get('/', async (req, res, next) => {
 
 router.post('/', checkIfAuthenticated, async (req, res, next) => {
     try{
-        const project = new Project({
+        const update = new Update({
             name: req.body.name,
-            brief: req.body.brief,
-            description: req.body.description
+            description: req.body.description,
+            link: req.body.link
         })
 
-        await project.save();
+        await update.save();
 
-        res.status(201).send("project inserted");
+        res.status(201).send("update inserted");
     } catch(err){
         res.status(500).send(err);
     }
@@ -31,7 +31,7 @@ router.post('/', checkIfAuthenticated, async (req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
     try{
-        const project = await Project.findById(req.params.id);
+        const project = await Update.findById(req.params.id);
         
         res.status(200).json(project);
     } catch(err){
@@ -44,9 +44,9 @@ router.get('/:id', async (req, res, next) => {
 
 router.put('/:id', checkIfAuthenticated, async (req, res, next) => {
     try{
-        const project = await Project.updateOne({"_id": req.params.id}, req.body);
+        const update = await Update.updateOne({"_id": req.params.id}, req.body);
         
-        res.status(200).json("project updated");
+        res.status(200).json("update updated");
     } catch(err){
         if(err.name === "CastError")
             res.status(204).send("No content");
@@ -57,9 +57,9 @@ router.put('/:id', checkIfAuthenticated, async (req, res, next) => {
 
 router.delete('/:id', checkIfAuthenticated, async (req, res, next) => {
     try{
-        await Project.deleteOne({"_id": req.params.id});
+        await Update.deleteOne({"_id": req.params.id});
 
-        res.status(200).send("project deleted");
+        res.status(200).send("update deleted");
     } catch(err){
         res.status(500).send(err);
     }

@@ -1,11 +1,11 @@
 var express = require('express');
 var router = express.Router();
-const Project = require('../models/project');
+const Registration = require('../models/registration');
 const checkIfAuthenticated = require('../middleware/auth');
 
 router.get('/', async (req, res, next) => {
     try{
-        const projects = await Project.find();
+        const projects = await Registration.find();
         
         res.status(200).json(projects);
     } catch(err){
@@ -15,15 +15,16 @@ router.get('/', async (req, res, next) => {
 
 router.post('/', checkIfAuthenticated, async (req, res, next) => {
     try{
-        const project = new Project({
+        const registration = new Registration({
             name: req.body.name,
             brief: req.body.brief,
-            description: req.body.description
+            description: req.body.description,
+            link: req.body.link
         })
 
-        await project.save();
+        await registration.save();
 
-        res.status(201).send("project inserted");
+        res.status(201).send("registration inserted");
     } catch(err){
         res.status(500).send(err);
     }
@@ -31,9 +32,9 @@ router.post('/', checkIfAuthenticated, async (req, res, next) => {
 
 router.get('/:id', async (req, res, next) => {
     try{
-        const project = await Project.findById(req.params.id);
+        const registration = await Registration.findById(req.params.id);
         
-        res.status(200).json(project);
+        res.status(200).json(registration);
     } catch(err){
         if(err.name === "CastError")
             res.status(204).send("No content");
@@ -44,9 +45,9 @@ router.get('/:id', async (req, res, next) => {
 
 router.put('/:id', checkIfAuthenticated, async (req, res, next) => {
     try{
-        const project = await Project.updateOne({"_id": req.params.id}, req.body);
+        const registration = await Registration.updateOne({"_id": req.params.id}, req.body);
         
-        res.status(200).json("project updated");
+        res.status(200).json("registration updated");
     } catch(err){
         if(err.name === "CastError")
             res.status(204).send("No content");
@@ -57,9 +58,9 @@ router.put('/:id', checkIfAuthenticated, async (req, res, next) => {
 
 router.delete('/:id', checkIfAuthenticated, async (req, res, next) => {
     try{
-        await Project.deleteOne({"_id": req.params.id});
+        await Registration.deleteOne({"_id": req.params.id});
 
-        res.status(200).send("project deleted");
+        res.status(200).send("registration deleted");
     } catch(err){
         res.status(500).send(err);
     }
