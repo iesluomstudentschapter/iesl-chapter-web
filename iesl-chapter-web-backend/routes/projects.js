@@ -1,8 +1,9 @@
 var express = require('express');
 var router = express.Router();
-const Project = require('../models/project') 
+const Project = require('../models/project');
+const checkIfAuthenticated = require('../middleware/auth');
 
-router.get('/', async (req, res, next) => {
+router.get('/', checkIfAuthenticated, async (req, res, next) => {
     try{
         const projects = await Project.find();
         
@@ -12,7 +13,7 @@ router.get('/', async (req, res, next) => {
     }
 });
 
-router.post('/', async (req, res, next) => {
+router.post('/', checkIfAuthenticated, async (req, res, next) => {
     try{
         const project = new Project({
             name: req.body.name,
@@ -41,7 +42,7 @@ router.get('/:id', async (req, res, next) => {
     }
 });
 
-router.put('/:id', async (req, res, next) => {
+router.put('/:id', checkIfAuthenticated, async (req, res, next) => {
     try{
         const project = await Project.updateOne({"_id": req.params.id}, req.body);
         
@@ -54,7 +55,7 @@ router.put('/:id', async (req, res, next) => {
     }
 });
 
-router.delete('/:id', async (req, res, next) => {
+router.delete('/:id', checkIfAuthenticated, async (req, res, next) => {
     try{
         await Project.deleteOne({"_id": req.params.id});
 

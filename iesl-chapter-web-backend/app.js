@@ -29,7 +29,7 @@ app.use('/users', usersRouter);
 app.use('/projects', projectsRouter);
 app.use('/login', loginRouter);
 
-mongoose.connect(db_url, {useNewUrlParser: true});
+mongoose.connect(db_url, {useNewUrlParser: true, useUnifiedTopology: true});
 const con = mongoose.connection;
 
 con.on('open', function() {
