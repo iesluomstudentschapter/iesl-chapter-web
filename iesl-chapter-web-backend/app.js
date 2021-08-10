@@ -11,6 +11,7 @@ var projectsRouter = require('./routes/projects');
 var registrationsRouter = require('./routes/registrations');
 var updatesRouter = require('./routes/updates');
 var loginRouter = require('./routes/login');
+var signupRouter = require('./routes/signup');
 
 const db_url = "mongodb://localhost/iesl-web"; 
 
@@ -32,6 +33,7 @@ app.use('/projects', projectsRouter);
 app.use('/registrations', registrationsRouter);
 app.use('/updates', updatesRouter);
 app.use('/login', loginRouter);
+app.use('/signup', signupRouter)
 
 mongoose.connect(db_url, {useNewUrlParser: true, useUnifiedTopology: true});
 const con = mongoose.connection;
