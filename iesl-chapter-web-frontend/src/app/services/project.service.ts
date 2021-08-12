@@ -8,7 +8,7 @@ import { Project } from '../models/project';
 })
 export class ProjectService {
 
-  private _url: string = "/assets/json/projects.json";
+  private _url: string = "http://localhost:3000/projects";
 
   constructor(private http: HttpClient) { }
 

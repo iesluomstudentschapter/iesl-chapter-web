@@ -24,7 +24,7 @@ export class ProjectDetailsComponent implements OnInit {
     this._projectService.getProjects()
       .subscribe(
         data => {
-          this.project = data.filter(item => item.id == this.projectId)[0];
+          this.project = data.filter(item => item._id == this.projectId)[0];
         }
       );
   }

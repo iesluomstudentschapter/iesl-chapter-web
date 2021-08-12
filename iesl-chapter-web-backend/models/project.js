@@ -12,6 +12,19 @@ const projectSchema = new mongoose.Schema({
     description: {
         type: String,
         required: true
+    },
+    images: {
+        type: Array,
+        required: true
+    },
+    category: {
+        type: String,
+        default: "on-going",
+        required: true
+    },
+    filter: {
+        type: String,
+        required: true
     }
 })
 

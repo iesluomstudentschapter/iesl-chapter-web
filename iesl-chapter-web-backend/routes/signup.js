@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var jwt = require('jsonwebtoken')
 var fs = require('fs');
+const crypto = require('crypto');
 const User = require('../models/user');
 const secret_code = require('../keys/code')
 
@@ -11,6 +12,10 @@ router.post('/', async(req, res) => {
     try{
       const user = await User.findOne({"username": req.body.username});
 
+      const hashed_password = crypto.createHmac('sha256', secret_code)
+                              .update(req.body.password)
+                              .digest('hex');
+
       if(user != null){
         res.status(200).send("Already registered!");
       } else {
@@ -18,7 +23,7 @@ router.post('/', async(req, res) => {
         if(secret_code === req.body.code){
             const newUser = new User({
                 username: req.body.username,
-                password: req.body.password
+                password: hashed_password
             })
     
             await newUser.save();

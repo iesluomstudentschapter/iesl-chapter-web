@@ -18,7 +18,10 @@ router.post('/', checkIfAuthenticated, async (req, res, next) => {
         const project = new Project({
             name: req.body.name,
             brief: req.body.brief,
-            description: req.body.description
+            description: req.body.description,
+            images: req.body.images,
+            category: req.body.category,
+            filter: req.body.filter
         })
 
         await project.save();
