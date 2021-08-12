@@ -24,7 +24,7 @@ export class RegistrationDetailsComponent implements OnInit {
     this._registrationService.getRegistrations()
       .subscribe(
         data => {
-          this.registration = data.filter(item => item.id == this.registrationId)[0];
+          this.registration = data.filter(item => item._id == this.registrationId)[0];
         }
       );
   }

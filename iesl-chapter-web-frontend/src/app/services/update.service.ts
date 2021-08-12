@@ -8,7 +8,7 @@ import { Update } from '../models/update';
 })
 export class UpdateService {
 
-  private _url: string = "/assets/json/updates.json";
+  private _url: string = "http://localhost:3000/updates";
 
   constructor(private http: HttpClient) { }
 

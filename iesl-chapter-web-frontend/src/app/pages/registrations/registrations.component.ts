@@ -18,13 +18,14 @@ export class RegistrationsComponent implements OnInit {
     this._registrationService.getRegistrations()
       .subscribe(
         data => {
+          console.log(data);
           this.registrations = data;
         }
       );
   }
 
   onSelect(registration: any){
-    this.router.navigate(['registrations', registration.id]);
+    this.router.navigate(['registrations', registration._id]);
   }
 
 }

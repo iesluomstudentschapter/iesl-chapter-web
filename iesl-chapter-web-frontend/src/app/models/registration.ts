@@ -1,5 +1,5 @@
 export class Registration {
-    id: any;
+    _id: any;
     name: any;
     brief: any;
     description: any;

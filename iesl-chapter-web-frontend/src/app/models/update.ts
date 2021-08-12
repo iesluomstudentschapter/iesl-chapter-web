@@ -1,5 +1,5 @@
 export class Update {
-    id: any;
+    _id: any;
     name: any;
     description: any;
     link: any;
