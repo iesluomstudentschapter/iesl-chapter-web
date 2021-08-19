@@ -18,6 +18,13 @@ export class ProjectsComponent implements OnInit {
   constructor(private router: Router, private _projectService: ProjectService) { }
 
   ngOnInit(): void {
+    if (!localStorage.getItem('foo')) { 
+      localStorage.setItem('foo', 'no reload') 
+      location.reload() 
+    } else {
+      localStorage.removeItem('foo') 
+    }
+    
     this._projectService.getProjects()
       .subscribe(
         data => {
