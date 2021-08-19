@@ -1,38 +1,35 @@
 <!-- ======= Registration Section ======= -->
 <section id="services" class="section-bg">
     <div class="container" data-aos="fade-up">
-  
-        <header class="section-header">
-          <h3>Registrations</h3>
-        </header>
-       
-        <div class="box text-center" data-aos="zoom-in" data-aos-delay="100">
-          <h1 class="title text-primary">IESL student membership Registration</h1>
-          <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-5">
-                <img src="assets/img/logo-iesl.png"/>
-            </div>
 
-            <div class="col-md-6 col-lg-5 align-self-center">
-              <div class="container">
-                <p>
-                  New Registration :<br/>
-                  <a href="https://iesl.lk/mis/index.php/direct-route/new">Register from here</a><br/>
-                </p>
-  
-                <p>
-                  For more details:<br/>
-                  <a href="https://iesl.lk/index.php?option=com_content&view=article&id=140&Itemid=417&lang=en#students">Students membership details</a>
-                </p>
-              </div>
-            </div>
-          </div>
-            
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/logo-iesl.png" class="img-fluid" alt="">
         </div>
+        <div class="col-lg-8" data-aos="fade-left">
+          <h3>IESL Student Membership Registration</h3>
+
+          <p>
+            New Registration :<br/>
+            
+            <a href="https://iesl.lk/mis/index.php/direct-route/new"><button type="button" class="btn btn-primary mt-3">Register</button></a><br/>
+          </p>
+
+          <p>
+            For more details:<br/>
+            <a href="https://iesl.lk/index.php?option=com_content&view=article&id=140&Itemid=417&lang=en#students"><button type="button" class="btn btn-primary mt-3">Details</button></a>
+          </p>
+          
+        </div>
+      </div>
+  
+        <header>
+          <h3 class="text-center">Events and positions Registrations</h3>
+        </header>
 
         <div class="container">
           <div class="row justify-content-center">
-            <div (click)="onSelect(registration)" class="box text-center pointer col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200" *ngFor="let registration of registrations">
+            <div (click)="onSelect(registration)" class="box pointer col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200" *ngFor="let registration of registrations">
               <h4 class="title text-primary">{{registration.name}}</h4>
               <p class="description">{{registration.brief}}</p>
               <br/>
