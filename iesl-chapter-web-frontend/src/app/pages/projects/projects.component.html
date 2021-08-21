@@ -3,17 +3,21 @@
     <div class="container" data-aos="fade-up">
   
         <header class="section-header">
-            <h3>On going project</h3>
+            <h3>Ongoing Project</h3>
         </header>
   
         <div class="row justify-content-center">
 
-            <div (click)="onSelect(project)" class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100" *ngFor="let project of onGoingProjects">
-              <div class="box">
-                <h4 class="title">{{project.name}}</h4>
-                <p class="description">{{project.brief}}</p>
-              </div>
+          <div *ngIf="noOngoingProjects">
+            <h4 class="text-center text-secondary">No Ongoing Projects</h4>
+          </div>
+
+          <div (click)="onSelect(project)" class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100" *ngFor="let project of onGoingProjects">
+            <div class="box" *ngIf="!noOngoingProjects">
+              <h4 class="title">{{project.name}}</h4>
+              <p class="description">{{project.brief}}</p>
             </div>
+          </div>
       
         </div>
   
@@ -42,13 +46,17 @@
     <div class="container" data-aos="fade-up">
   
         <header class="section-header">
-            <h3>Up coming project</h3>
+            <h3>Upcoming Project</h3>
         </header>
   
         <div class="row justify-content-center">
+
+          <div *ngIf="noUpcomingProjects">
+            <h4 class="text-center text-secondary">No Upcoming Projects</h4>
+          </div>
   
           <div (click)="onSelect(project)" class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100" *ngFor="let project of upComingProjects">
-            <div class="box">
+            <div class="box" *ngIf="!noUpcomingProjects">
               <h4 class="title">{{project.name}}</h4>
               <p class="description">{{project.brief}}</p>
             </div>

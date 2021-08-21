@@ -11,6 +11,7 @@ import { RegistrationService } from 'src/app/services/registration.service';
 export class RegistrationsComponent implements OnInit {
 
   registrations : Registration[] = [];
+  noRegistration: boolean = true;
 
   constructor(private router: Router, private _registrationService: RegistrationService) { }
 
@@ -20,6 +21,12 @@ export class RegistrationsComponent implements OnInit {
         data => {
           console.log(data);
           this.registrations = data;
+
+          if(this.registrations.length == 0){
+            this.noRegistration = true;
+          } else {
+            this.noRegistration = false;
+          }
         }
       );
   }

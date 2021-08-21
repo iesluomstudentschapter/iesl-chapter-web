@@ -15,6 +15,9 @@ export class ProjectsComponent implements OnInit {
   upComingProjects: Project[] = [];
   pastProjects: Project[] = [];
 
+  noOngoingProjects: boolean = true;
+  noUpcomingProjects: boolean = true;
+
   constructor(private router: Router, private _projectService: ProjectService) { }
 
   ngOnInit(): void {
@@ -32,6 +35,18 @@ export class ProjectsComponent implements OnInit {
           this.onGoingProjects = this.projects.filter(item => item.category === "on-going");
           this.upComingProjects = this.projects.filter(item => item.category === "up-coming");
           this.pastProjects = this.projects.filter(item => item.category === "past");
+
+          if(this.onGoingProjects.length == 0){
+            this.noOngoingProjects = true;
+          } else {
+            this.noOngoingProjects = false;
+          }
+
+          if(this.upComingProjects.length == 0){
+            this.noUpcomingProjects = true;
+          } else {
+            this.noUpcomingProjects = false;
+          }
         }
       );
   }

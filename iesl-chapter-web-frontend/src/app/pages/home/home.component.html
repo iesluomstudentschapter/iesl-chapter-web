@@ -144,12 +144,16 @@
 
       <div class="row justify-content-center">
 
-          <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100" *ngFor="let update of updates">
-            <div class="box">
-              <a href={{update.link}}><h4 class="title">{{update.name}}</h4></a>
-              <p class="description">{{update.description}}</p>
-            </div>
+        <div *ngIf="noUpdates">
+          <h4 class="text-center text-secondary">No updates</h4>
+        </div>
+
+        <div class="col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="100" *ngFor="let update of updates">
+          <div class="box" *ngIf="!noUpdates">
+            <a href={{update.link}}><h4 class="title">{{update.name}}</h4></a>
+            <p class="description">{{update.description}}</p>
           </div>
+        </div>
     
       </div>
 

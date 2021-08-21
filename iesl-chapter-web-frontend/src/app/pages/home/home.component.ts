@@ -10,13 +10,22 @@ import { UpdateService } from 'src/app/services/update.service';
 export class HomeComponent implements OnInit {
 
   updates: Update[] = [];
+  noUpdates: boolean = true;
   
   constructor(private _updateService: UpdateService) { }
 
   ngOnInit(): void {
     this._updateService.getRegistrations()
       .subscribe(
-        data => this.updates = data
+        data => {
+          this.updates = data;
+
+          if(this.updates.length == 0){
+            this.noUpdates = true;
+          } else {
+            this.noUpdates = false;
+          }
+        }
       );
   }
 
