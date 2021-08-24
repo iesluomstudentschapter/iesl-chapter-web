@@ -12,6 +12,7 @@ import { RegistrationsComponent } from './pages/registrations/registrations.comp
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { ProjectService } from './services/project.service';
 import { RegistrationDetailsComponent } from './pages/registration-details/registration-details.component';
+import { IeslYmsComponent } from './pages/iesl-yms/iesl-yms.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RegistrationDetailsComponent } from './pages/registration-details/regis
     ProjectsComponent,
     RegistrationsComponent,
     ProjectDetailsComponent,
-    RegistrationDetailsComponent
+    RegistrationDetailsComponent,
+    IeslYmsComponent
   ],
   imports: [
     BrowserModule,

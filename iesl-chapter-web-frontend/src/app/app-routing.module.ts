@@ -7,6 +7,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectDetailsComponent } from './pages/project-details/project-details.component';
 import { RegistrationDetailsComponent } from './pages/registration-details/registration-details.component';
+import { IeslYmsComponent } from './pages/iesl-yms/iesl-yms.component'
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'projects/:id', component: ProjectDetailsComponent},
   {path: 'registrations', component: RegistrationsComponent},
   {path: 'registrations/:id', component: RegistrationDetailsComponent},
+  {path: 'yms', component: IeslYmsComponent},
   {path: 'about', component: AboutComponent},
   {path: 'contact', component: ContactComponent}
 ];
