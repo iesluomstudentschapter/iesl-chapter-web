@@ -8,7 +8,7 @@ import { Registration } from '../models/registration';
 })
 export class RegistrationService {
 
-  private _url: string = "http://localhost:3000/registrations";
+  private _url: string = "assets/json/registrations.json";
 
   constructor(private http: HttpClient) { }
 

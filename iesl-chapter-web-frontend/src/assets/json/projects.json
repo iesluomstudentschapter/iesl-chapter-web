@@ -1,0 +1,59 @@
+[
+    {
+        "_id":1,
+        "images":["/assets/img/projects/hackathon-2019/hackathon-2019.png"],
+        "category":"past",
+        "name":"Techno Hackathon 2019",
+        "brief":"Techno-Hackathon is the biggest Advanced Hackathon organized in Sri Lanka.",
+        "description":"The competition has established as a massive opportunity to showcase the novel ideas and coding skills of computer programmers and others who are involved in software designing intending to make innovative digital solutions for real-life problems. This is an annual event held with participants who are fascinated with technology and innovation. Techno Hackathon – Xtreme 2019 was conducted successfully on the 12th of October 2019 at BMICH Premises.",
+        "filter":"filter-hackthon"
+    },
+
+    {
+        "_id":2,
+        "images":["/assets/img/projects/engiqs/engiqs.png"],
+        "category":"on-going","name":"EngiQs 2021",
+        "brief":"EngiQs is a platform built for all engineering students of University of Moratuwa to get a brief idea about the university and the engineering profession.",
+        "description":"The idea of EngiQs was born in order to create an opportunity for undergraduates to have a precise knowledge of what they should do, and how to be the best in the field of engineering. We expect that this event will be helpful to build optimistic future engineers from the university.",
+        "filter":"filter-others"
+    },
+
+    {
+        "_id":3,
+        "images":["/assets/img/projects/agm-2021/agm-1.png","/assets/img/projects/agm-2021/agm-2.png"],
+        "category":"past","name":"Annual General Meeting 2021",
+        "brief":"This marks the beginning of the year and provides a kickstart to the chapter by appointing the new executive committee and board of officials for the year.",
+        "description":"One of the most anticipated projects marks the official commencement of the year by appointing the new executive committee and board of officials for the year. All the members gather annually for this occasion and discuss key issues and arrive at decisions regarding the short-term and long-term strategies of the chapter. The project enhances the interactions and fellowship between the members while signifying a new beginning to our student chapter.",
+        "filter":"filter-agm"
+    },
+
+    {
+        "_id": 4,
+        "images": ["/assets/img/projects/talk-to-school/sch-1.png"],
+        "category": "past",
+        "name": "Talk to School",
+        "brief": "Hands to a selected school in motivating them to choose the right career path to a brighter future.",
+        "description": "Talk to School is a signature project done in association with the IESL-Young Members Section where we extend helping hands to a selected school in motivating them to choose the right career path to a brighter future. The sessions under this project spread awareness about life after school, professionalism and aids in pursuing their career and life prospects.",
+        "filter": "filter-talk-school"
+    },
+
+    {
+        "_id": 5,
+        "images": ["/assets/img/projects/symposiarch/sym-1.png"],
+        "category": "past",
+        "name": "Symposiarch",
+        "brief": "This is a unique initiative carried out by IESL in collaboration with YMS.",
+        "description": "This is a unique initiative carried out by IESL in collaboration with YMS. Under the project, a potent project proposal prepared by the students at University of Moratuwa was selected and a team of professionals guided them to make the project a reality.",
+        "filter": "filter-symposiarch"
+    },
+
+    {
+        "_id": 6,
+        "images": ["/assets/img/projects/symposiarch/sym-1.png"],
+        "category": "up-coming",
+        "name": "Field Visit",
+        "brief": "The Field Visits organized by the IESL - Student Chapter of University of Moratuwa aids in enhancing the knowledge of the members by highlighting the massive engineering projects underway in Sri Lanka.",
+        "description": "The Field Visits organized by the IESL - Student Chapter of University of Moratuwa aids in enhancing the knowledge of the members by highlighting the massive engineering projects underway in Sri Lanka.",
+        "filter": "filter-symposiarch"
+    }
+]
