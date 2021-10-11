@@ -80,12 +80,11 @@
         <div class="col-lg-12">
           <ul id="portfolio-flters"> <!-- todo: buttons are not working -->
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-agm">AGM</li>
             <li data-filter=".filter-hackthon">Hackthon</li>
+            <li data-filter=".filter-evotech">Evotech</li>
+            <li data-filter=".filter-engiqs">EngiQs</li>
             <li data-filter=".filter-talk-school">Talk to school</li>
-            <li data-filter=".filter-symposiarch">Symposiarch</li>
             <li data-filter=".filter-paving-path">Paving Paths</li>
-            <li data-filter=".filter-others">Others</li>
           </ul>
         </div>
       </div>
@@ -95,8 +94,8 @@
         <div (click)="onSelect(project)" class="col-lg-4 col-md-6 portfolio-item" [class]="project.filter" *ngFor="let project of pastProjects">
           <div class="portfolio-wrap">
               <img src={{project.images[0]}} class="img-fluid" alt="project image">
-              <div class="portfolio-info text-white">
-                <div class="h4 bg-primary"><strong>{{project.name}}</strong></div>
+              <div class="portfolio-info text-primary">
+                <div class="h4 bg-white"><strong>{{project.name}}</strong></div>
               </div>
           </div>
         </div>

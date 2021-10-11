@@ -1,59 +1,114 @@
 [
     {
         "_id":1,
-        "images":["/assets/img/projects/hackathon-2019/hackathon-2019.png"],
+        "images":[
+            "/assets/img/projects/hackathon-2019/1.jpg",
+            "/assets/img/projects/hackathon-2019/2.jpg",
+            "/assets/img/projects/hackathon-2019/3.jpg",
+            "/assets/img/projects/hackathon-2019/4.jpg",
+            "/assets/img/projects/hackathon-2019/5.jpg",
+            "/assets/img/projects/hackathon-2019/6.jpg",
+            "/assets/img/projects/hackathon-2019/7.png",
+            "/assets/img/projects/hackathon-2019/8.jpg",
+            "/assets/img/projects/hackathon-2019/9.jpg",
+            "/assets/img/projects/hackathon-2019/10.jpg"
+        ],
         "category":"past",
-        "name":"Techno Hackathon 2019",
-        "brief":"Techno-Hackathon is the biggest Advanced Hackathon organized in Sri Lanka.",
-        "description":"The competition has established as a massive opportunity to showcase the novel ideas and coding skills of computer programmers and others who are involved in software designing intending to make innovative digital solutions for real-life problems. This is an annual event held with participants who are fascinated with technology and innovation. Techno Hackathon – Xtreme 2019 was conducted successfully on the 12th of October 2019 at BMICH Premises.",
+        "name":"Hackathon-2019",
+        "brief": "Hackathon, the competition was one of the country's largest ideathons launched by IESL Student Chapter of the University of Moratuwa in partnership with IESL and IESL-YMS at  Sri Lanka's largest technological exhibition -TECHNO.",
+        "description": [
+            "The IESL Student Chapter of University Moratuwa, as a renowned engineering student body within IESL, aspires to provide a recognized, academically subsidized and financially supported platform for the country's most dedicated engineering students through a variety of activities. Following up on the intended objective, the IESL Student Chapter of the University of Moratuwa, in partnership with IESL and IESL-YMS, was successful in launching one of the country's largest ideathons in collaboration with Sri Lanka's largest technological exhibition -TECHNO.",
+            "All state engineering undergraduates were invited to participate in the competition, which was known as \"Hackathon\", where they were encouraged to illuminate their ideas, develop them into operating models, and finally present them to a distinguished and well-known judge panel in order to win grand monetary prizes of and scholarship opportunities. The competition ran consecutively and successfully for five years until it was replaced by Hackathon Xtreme in 2019.",
+            "The Hackathon was divided into two phases, with the first phase filtering the applicants' initial submissions by a renowned judge panel, and the second phase at TECHNO, where finalists were encouraged to present their ideas and breakthroughs, along with their creativity and applications, followed by an in-depth Question and Answer session, allowing them to develop presentation, management, and critical thinking skills, which was lead to provide young competent engineers to the industry, as to the primary vision of the chapter."
+        ],
         "filter":"filter-hackthon"
     },
 
     {
         "_id":2,
-        "images":["/assets/img/projects/engiqs/engiqs.png"],
-        "category":"on-going","name":"EngiQs 2021",
-        "brief":"EngiQs is a platform built for all engineering students of University of Moratuwa to get a brief idea about the university and the engineering profession.",
-        "description":"The idea of EngiQs was born in order to create an opportunity for undergraduates to have a precise knowledge of what they should do, and how to be the best in the field of engineering. We expect that this event will be helpful to build optimistic future engineers from the university.",
-        "filter":"filter-others"
+        "images":[
+            "/assets/img/projects/evotech/1.png",
+            "/assets/img/projects/evotech/2.png",
+            "/assets/img/projects/evotech/3.jpg",
+            "/assets/img/projects/evotech/4.jpg",
+            "/assets/img/projects/evotech/5.jpg",
+            "/assets/img/projects/evotech/6.jpg",
+            "/assets/img/projects/evotech/7.jpg",
+            "/assets/img/projects/evotech/8.jpg"
+        ],
+        "category":"past",
+        "name":"Evotech",
+        "brief":"EVOTECH, the technical article writing competition is a novel initiative undertaken by the IESL Student Chapter of University of Moratuwa as an approach to escalate today’s sciences into tomorrow’s technologies.",
+        "description":[
+            "The world is getting smarter and faster day by day with the emergence of newer technologies. EVOTECH, the technical article writing competition is a novel initiative undertaken by the IESL Student Chapter of University of Moratuwa as an approach to escalate today’s sciences into tomorrow’s technologies while providing the opportunity for the undergraduates all over the island to grow personally as well as professionally.",
+            "Technical writing is one of the many ways that is used to simplify the complexity of technology with the support of words. In an era that mankind no longer uses but lives the technology, the IESL student chapter of University of Moratuwa organized EVOTECH, the inter-university technical article competition further intending to create an opportunity to advertise the young and peer generations in seeking novel technologies and approaching real-life problems with innovative mindsets.",
+            "Expecting the best impact five categories were provided for the participants to choose from which will cover the most ground of worldwide emerging technologies.Those categories were Emerging technological advancements in the field of civil engineering, Improvements and innovations in biomedical context, Nanotechnology and chemical advancements for a dominant future, Renewable energy and Robotics for space exploration.",
+            "Among 150+ valid submissions, the best three articles and the Most Popular Article, for each category were chosen at the end of the competition and were rewarded with cash prizes. To cater for the best outcome, EVOTECH was opened to all Sri Lankan state university undergraduates to take part.",
+            "Followed by the remarkable virtual session EngiQs, the Awarding Ceremony of Evotech was held on the 29th of August 2021, from 7 PM onwards with the honourable presence of Eng. Damith Dissanayake, Chairman of IESL-YMS. The session remarked its gigantic successful ending accompanied with a speech of a contestant who participated in Evotech and she emphasized that the competition was an extremely delightful experience for her to improve capacities and extended her heartfelt gratitude to the chapter for organizing such a prolific event for the young undergraduates to showcase their unique capabilities."
+        ],
+        "filter":"filter-evotech"
     },
 
     {
         "_id":3,
-        "images":["/assets/img/projects/agm-2021/agm-1.png","/assets/img/projects/agm-2021/agm-2.png"],
-        "category":"past","name":"Annual General Meeting 2021",
-        "brief":"This marks the beginning of the year and provides a kickstart to the chapter by appointing the new executive committee and board of officials for the year.",
-        "description":"One of the most anticipated projects marks the official commencement of the year by appointing the new executive committee and board of officials for the year. All the members gather annually for this occasion and discuss key issues and arrive at decisions regarding the short-term and long-term strategies of the chapter. The project enhances the interactions and fellowship between the members while signifying a new beginning to our student chapter.",
-        "filter":"filter-agm"
+        "images":[
+            "/assets/img/projects/engiqs/1.jpg",
+            "/assets/img/projects/engiqs/2.jpg",
+            "/assets/img/projects/engiqs/3.jpg",
+            "/assets/img/projects/engiqs/4.png",
+            "/assets/img/projects/engiqs/5.png"
+        ],
+        "category":"past",
+        "name":"EngiQs",
+        "brief":"EngiQs is a platform built for all engineering students of University of Moratuwa to get a brief idea about the university and the engineering profession and it was born in order to create an opportunity for undergraduates to have a precise knowledge of what they should do, and how to be the best in the field of engineering.",
+        "description":[
+            "While epitomizing another remarkable milestone to the 10-years excellency of the IESL Student Chapter of University of Moratuwa, the newfangled manoeuvre EngiQs accompanied by the Awarding Ceremony of Evotech were held successfully on 29th of August 2021, virtually through zoom platform with the enthusiastic participation of 200+ participants throughout the event. The key motive of the session was to make the young undergraduates aware of various opportunities available in the field of engineering, to focus on the questions that the university students have regarding the engineering field and to find solutions to them to the utmost degree.",
+            "The gathered audience was warmly welcomed by Mr. Rashan Madhuranga, the Chairman of the IESL Student Chapter of University of Moratuwa. Then a resplendent introductory video was presented to the virtual audience in order to embellish the awareness of the university and the chapter. Followed by this invigorating video clip, the session was handed over to the keynote speaker of the event. Dr. Pujitha Silva, a senior lecturer in University of Moratuwa, Department of Biomedical Engineering, PhD. Mechanical Engineering, B.Eng. Medical Engineering dignified this prestigious occasion as the guest speaker. Through this innovative concept, he was able to convince these passionate undergraduates about various aspects that are currently executing in the engineering field. His thoughts and graceful take on this occasion made the event more informative and the participants were certainly thrilled and excited to hear his enlightening speech.",
+            "Afterwards, the event was opened for a Q&A session which further granted the virtual audience to clarify their doubts and discuss their field related issues with the resource person. Then the event was followed by another interactive quiz session with a fun element to it, with the participants and their sprightly contribution escorted the event to a success."
+        ],
+        "filter":"filter-engiqs"
     },
 
     {
-        "_id": 4,
-        "images": ["/assets/img/projects/talk-to-school/sch-1.png"],
-        "category": "past",
-        "name": "Talk to School",
-        "brief": "Hands to a selected school in motivating them to choose the right career path to a brighter future.",
-        "description": "Talk to School is a signature project done in association with the IESL-Young Members Section where we extend helping hands to a selected school in motivating them to choose the right career path to a brighter future. The sessions under this project spread awareness about life after school, professionalism and aids in pursuing their career and life prospects.",
-        "filter": "filter-talk-school"
+        "_id":4,
+        "images":[
+            "/assets/img/projects/talk-to-school/1.png",
+            "/assets/img/projects/talk-to-school/2.jfif",
+            "/assets/img/projects/talk-to-school/3.png",
+            "/assets/img/projects/talk-to-school/4.png",
+            "/assets/img/projects/talk-to-school/5.png"
+        ],
+        "category":"past",
+        "name":"Talk to School",
+        "brief": "Talk to School is a signature project done in association with the IESL-Young Members Section where we extend helping hands to a selected school in motivating them to choose the right career path to a brighter future.",
+        "description": [
+            "The 'Talk to school' program was conducted by the Young Members Section (YMS) Committee of the Institute of Engineers, Sri Lanka (IESL) in collaboration with the IESL Student Chapter, University of Moratuwa (UoM), was held at Taxila Central College, Horana on 29th July 2019. Engineers return to their alma mater to share their experiences, educate students about the value of engineering, and guide and inspire students to become successful engineers in the future. The goal of this program is to develop a better future generation, so that includes key speeches that will help them achieve their goals.",
+            "The event started at 9 a.m. and the school main hall had been pleasantly prepared for the event. Grade 12 Physical Science stream students of Taxila College participated in the program. Mrs. K. M. P. K. Jayathilake, the Principal, Teachers of the School, honorable guests from the IESL YMS, the President, Secretary, and Committee Members of the IESL Student Chapter of the University of Moratuwa were present on this occasion. The sincere speech was delivered by Mrs. K. M. P. K. Jayathilake, the Principal, and welcomed all the officials to the event, and the event was proceeded according to the agenda.",
+            "As the chief guest, Eng. Arjuna Manamperi, who was then the Vice President of IESL, disclosed new thinking to the young students in his speech on 'How to prepare as Engineers with a Futuristic Vision'. In his very interactive session, students were fortunate to share their future ambitions and have advice from such a well-experienced professional. As a highlight, a female student who was ambitious of being an Air Traffic Controller was able to be informed about the way of her future preparations. All the future goals of the students added a new flavor to the program and assured of a very promising future for the country.",
+            "Thereafter, a gaming session was conducted by the members of the IESL Student Chapter of the University of Moratuwa, showcasing that Engineers are analytical thinkers. All the students enjoyed the time a great deal and gifts which were prepared by IESL YMS were offered to the winners. An appealing music session was presented by three undergraduates from the University of Moratuwa and all the participants were fascinated by their performance.",
+            "The third speaker, Eng. Navodana Kankanamge, who was an IESL Council Member back then, enlightened the students on the role of an Engineer with his own experience of 10 years at the Ceylon Electricity Board. Afterward, Mr. Kithmal Samarasekara, who graduated from the University of Moratuwa shared his university experience with fellow youngsters. This was quite a change of phase in the program, because of his interactive speech and students were interested in knowing about university life.",
+            "Students were allowed to clarify the questions they have related to their future education and career path. The leaflet produced by the IESL YMS was also explained to the students. The students were encouraged to contact IESL or the resource persons on any issues they needed guidance on.",
+            "Delivering the closing comments, the Sectional Head of Physical Science Section of Taxila Central College, extended his sincere appreciation to IESL for launching this awareness program. He further agreed that this kind of program that gives a broader view of the profession is equally important for the students. Accordingly, at one hour past noon, a successful event was brought to its closure."
+        ],
+        "filter":"filter-talk-school"
     },
 
     {
-        "_id": 5,
-        "images": ["/assets/img/projects/symposiarch/sym-1.png"],
-        "category": "past",
-        "name": "Symposiarch",
-        "brief": "This is a unique initiative carried out by IESL in collaboration with YMS.",
-        "description": "This is a unique initiative carried out by IESL in collaboration with YMS. Under the project, a potent project proposal prepared by the students at University of Moratuwa was selected and a team of professionals guided them to make the project a reality.",
-        "filter": "filter-symposiarch"
-    },
-
-    {
-        "_id": 6,
-        "images": ["/assets/img/projects/symposiarch/sym-1.png"],
-        "category": "up-coming",
-        "name": "Field Visit",
-        "brief": "The Field Visits organized by the IESL - Student Chapter of University of Moratuwa aids in enhancing the knowledge of the members by highlighting the massive engineering projects underway in Sri Lanka.",
-        "description": "The Field Visits organized by the IESL - Student Chapter of University of Moratuwa aids in enhancing the knowledge of the members by highlighting the massive engineering projects underway in Sri Lanka.",
-        "filter": "filter-symposiarch"
+        "_id":5,
+        "images":[
+            "/assets/img/projects/paving-paths/1.png",
+            "/assets/img/projects/paving-paths/2.PNG",
+            "/assets/img/projects/paving-paths/3.png",
+            "/assets/img/projects/paving-paths/4.png"
+        ],
+        "category":"past",
+        "name":"Paving Paths",
+        "brief": "Paving Paths is undertaken by the IESL - Student Chapter of University of Moratuwa to direct the engineering freshers, to identify their dream career paths under the guidance of experts in the field.",
+        "description": [
+            "\"Paving Paths\" organized by the IESL Student Chapter of University of Moratuwa, was an attempt to bring the connection between the Undergraduates and the industry experts to a virtual platform broadening the reach of the audience despite the hardships faced due to Covid19 Pandemic. \"Paving Paths 2020\" marked the first ever virtual webinar organized by the student chapter.",
+            "Eng. Arjuna Manamperi, a well known engineer in the industry was the guest speaker of the \"Paving Paths\" in the year 2020. He has shared his 25+ years of experience and insights he gained through his experience with the participants. It was extremely beneficial for all the participants who joined for the session. Eng. Manamperi has enlightened the audience about many important aspects for the aspiring youth engineering undergraduates such as the importance of accreditation and accreditation procedure of Universities, the process of becoming a Chartered Engineer, about the engineering council, and many more. The event marked a great success with 150+ participants. All the participants eagerly gained the best out of the opportunity by enthusiastic engagement during the Q&A session.",
+            "Paving Paths can be called as one of its kind as the opportunities for engineering undergraduates to get exposure to this knowledge are very limited. As a proud student organization with a history of 10 years, serving the undergraduate community, the IESL Student Chapter of University of Moratuwa will continue this endeavor to enlighten many more generations of youth undergraduates to come."
+        ],
+        "filter":"filter-paving-path"
     }
 ]

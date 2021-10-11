@@ -4,14 +4,23 @@
 
       <h3 class="text-center">{{project.name}}</h3>
 
-      <p>
-        {{project.description}}
+      <p *ngFor="let detail of project.description">
+        {{detail}}
       </p>     
 
   </div>
 
-  <div class="container">
-    <img src={{photo}} width="400" class="rounded mx-auto d-block m-4 img-fluid" data-aos="flip-left" *ngFor="let photo of project.images"/>
+  <div class="container" data-aos="fade-up">
+  
+    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+      <div class="col-lg-4 col-md-6 portfolio-item"  *ngFor="let photo of project.images">
+        <div class="portfolio-wrap">
+          <img src={{photo}} width="400" class="rounded mx-auto d-block m-4 img-fluid" data-aos="flip-left"/>
+        </div>
+      </div>
+    </div>
+  
   </div>
 
 </section>
