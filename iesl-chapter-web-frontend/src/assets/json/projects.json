@@ -2,30 +2,54 @@
     {
         "_id":1,
         "images":[
-            "/assets/img/projects/hackathon-2019/1.jpg",
-            "/assets/img/projects/hackathon-2019/2.jpg",
-            "/assets/img/projects/hackathon-2019/3.jpg",
-            "/assets/img/projects/hackathon-2019/4.jpg",
-            "/assets/img/projects/hackathon-2019/5.jpg",
-            "/assets/img/projects/hackathon-2019/6.jpg",
-            "/assets/img/projects/hackathon-2019/7.png",
-            "/assets/img/projects/hackathon-2019/8.jpg",
-            "/assets/img/projects/hackathon-2019/9.jpg",
-            "/assets/img/projects/hackathon-2019/10.jpg"
+            "/assets/img/projects/hackathon/1.jpg",
+            "/assets/img/projects/hackathon/2.jpg",
+            "/assets/img/projects/hackathon/3.jpg",
+            "/assets/img/projects/hackathon/4.jpg",
+            "/assets/img/projects/hackathon/5.jpg",
+            "/assets/img/projects/hackathon/6.jpeg",
+            "/assets/img/projects/hackathon/7.jpeg"
         ],
         "category":"past",
-        "name":"Hackathon-2019",
+        "name":"Hackathon",
         "brief": "Hackathon, the competition was one of the country's largest ideathons launched by IESL Student Chapter of the University of Moratuwa in partnership with IESL and IESL-YMS at  Sri Lanka's largest technological exhibition -TECHNO.",
         "description": [
             "The IESL Student Chapter of University Moratuwa, as a renowned engineering student body within IESL, aspires to provide a recognized, academically subsidized and financially supported platform for the country's most dedicated engineering students through a variety of activities. Following up on the intended objective, the IESL Student Chapter of the University of Moratuwa, in partnership with IESL and IESL-YMS, was successful in launching one of the country's largest ideathons in collaboration with Sri Lanka's largest technological exhibition -TECHNO.",
             "All state engineering undergraduates were invited to participate in the competition, which was known as \"Hackathon\", where they were encouraged to illuminate their ideas, develop them into operating models, and finally present them to a distinguished and well-known judge panel in order to win grand monetary prizes of and scholarship opportunities. The competition ran consecutively and successfully for five years until it was replaced by Hackathon Xtreme in 2019.",
             "The Hackathon was divided into two phases, with the first phase filtering the applicants' initial submissions by a renowned judge panel, and the second phase at TECHNO, where finalists were encouraged to present their ideas and breakthroughs, along with their creativity and applications, followed by an in-depth Question and Answer session, allowing them to develop presentation, management, and critical thinking skills, which was lead to provide young competent engineers to the industry, as to the primary vision of the chapter."
         ],
-        "filter":"filter-hackthon"
+        "filter":"filter-hackathon"
     },
 
     {
         "_id":2,
+        "images":[
+            "/assets/img/projects/hackathon-xtreme/1.jpg",
+            "/assets/img/projects/hackathon-xtreme/2.jpg",
+            "/assets/img/projects/hackathon-xtreme/3.jpg",
+            "/assets/img/projects/hackathon-xtreme/4.jpg",
+            "/assets/img/projects/hackathon-xtreme/5.jpg",
+            "/assets/img/projects/hackathon-xtreme/6.jpg",
+            "/assets/img/projects/hackathon-xtreme/7.png",
+            "/assets/img/projects/hackathon-xtreme/8.jpg",
+            "/assets/img/projects/hackathon-xtreme/9.jpg",
+            "/assets/img/projects/hackathon-xtreme/10.jpg"
+        ],
+        "category": "past",
+        "name": "Hackathon Xtreme",
+        "brief": "Techno Hackathon Xtreme  was a contemporary initiative done by the IESL Student Chapter of the University of Moratuwa in partnership with the IESL and IESL YMS at BMICH premises with over 16 teams representing 8 leading, recognized state universities.  This was a coding competition in which the competitors could use a programming language of their preference.",
+        "description": [
+            "The Institute of Engineers Sri Lanka (IESL) is the leading professional body for Sri Lankan engineers. The IESL holds many events to uplift Sri Lankan engineering technology and inspires young enthusiasts in the engineering field.",
+            "Techno Sri Lanka is the National Engineering and Technology exhibition and the annual flagship fair of the IESL. This exhibition consists of many revolutionary exhibits and inventions. Concur with the Techno exhibition, “ Techno Hackathon Xtreme 2019” was successfully conducted by the IESL Student Chapter of University of Moratuwa. This was a coding competition in which the competitors could use a programming language of their preference. The competition was open to all undergraduates from government and non-government universities.",
+            "Techno Hackathon Xtreme was held on 12th October 2019 at BMICH premises. Although there were a significant number of applicants, the organizing committee had to choose the best 50 competitors to participate in the event in which a team consisted of 2-3 members. This was a level-based competition in which the final score was to be the total earned from each level. Also, the spectators got an opportunity to give their vote on social media to select the most popular team.",
+            "After an extremely competitive Hackathon, the winners were finally announced. \"Team Cyborgs\" of the University of Jayewardenepura became the champions, while \"Team Seekers\" of the University of Moratuwa and \"Eye Coders\" of the University of Peradeniya won the second and third places, respectively. All the winners were awarded with grand monetary prizes.",
+            "Hackathon Xtreme was successfully concluded along with \"Techno\" which was a contemporary initiative done by the IESL Student Chapter of the University of Moratuwa in partnership with the IESL and IESL YMS."
+        ],
+        "filter":"filter-hackathon"
+    },
+
+    {
+        "_id":3,
         "images":[
             "/assets/img/projects/evotech/1.png",
             "/assets/img/projects/evotech/2.png",
@@ -50,7 +74,7 @@
     },
 
     {
-        "_id":3,
+        "_id":4,
         "images":[
             "/assets/img/projects/engiqs/1.jpg",
             "/assets/img/projects/engiqs/2.jpg",
@@ -70,7 +94,7 @@
     },
 
     {
-        "_id":4,
+        "_id":5,
         "images":[
             "/assets/img/projects/talk-to-school/1.png",
             "/assets/img/projects/talk-to-school/2.jfif",
@@ -94,7 +118,7 @@
     },
 
     {
-        "_id":5,
+        "_id":6,
         "images":[
             "/assets/img/projects/paving-paths/1.png",
             "/assets/img/projects/paving-paths/2.PNG",
@@ -110,5 +134,109 @@
             "Paving Paths can be called as one of its kind as the opportunities for engineering undergraduates to get exposure to this knowledge are very limited. As a proud student organization with a history of 10 years, serving the undergraduate community, the IESL Student Chapter of University of Moratuwa will continue this endeavor to enlighten many more generations of youth undergraduates to come."
         ],
         "filter":"filter-paving-path"
+    },
+
+    {
+        "_id":7,
+        "images":[
+            "/assets/img/projects/agm/1.jpg",
+            "/assets/img/projects/agm/2.jpg",
+            "/assets/img/projects/agm/3.jpg",
+            "/assets/img/projects/agm/4.jpg",
+            "/assets/img/projects/agm/5.PNG",
+            "/assets/img/projects/agm/6.PNG",
+            "/assets/img/projects/agm/7.PNG",
+            "/assets/img/projects/agm/8.jpg",
+            "/assets/img/projects/agm/9.jpg",
+            "/assets/img/projects/agm/10.jpg",
+            "/assets/img/projects/agm/11.jpg",
+            "/assets/img/projects/agm/12.jpg",
+            "/assets/img/projects/agm/13.jpg",
+            "/assets/img/projects/agm/14.jpg",
+            "/assets/img/projects/agm/15.jpg",
+            "/assets/img/projects/agm/16.jpg",
+            "/assets/img/projects/agm/17.jpg",
+            "/assets/img/projects/agm/18.jpg",
+            "/assets/img/projects/agm/19.jpg",
+            "/assets/img/projects/agm/20.jpg",
+            "/assets/img/projects/agm/21.jpg",
+            "/assets/img/projects/agm/22.jpg",
+            "/assets/img/projects/agm/23.jpg"
+        ],
+        "category":"past",
+        "name": "Annual General Meeting",
+        "brief": "This marks the beginning of the year and provides a kickstart to the chapter by appointing the new executive committee and board of officials for the year. All the members gather annually for this occasion and discuss key issues and arrive at decisions regarding the short-term and long-term strategies of the chapter.",
+        "description": [
+            "The annual general meeting of IESL Student Chapter of University of Moratuwa is one of the most anticipated projects that marks the beginning of a new era for the chapter and it rejuvenates the chapter by appointing the new executive committee and board of officials for the upcoming year. Every year, all the beloved members assemble for this occasion and discuss the key issues and arrive at decisions regarding the short and long term strategies of the chapter. The project enhances the interactions and fellowship between the members while signifying a pristine incipiency to the chapter.",
+            "When reminiscing annual general meetings held in past few years, the annual general meeting of 2019 took place on 4th of April 2019 in the Civil auditorium of the University of Moratuwa and the event was graced with the honourable participation of the elected president of the IESL, Prof. T.M. Palewatte while the annual general meeting of 2020 was successfully held on 9th January of 2020 at 10.30 am in the Electrical department auditorium of the university. Eng. Arjun Manamperi adored this moment by delivering a speech on \"Legalising engineering profession and must have attitudes of a young engineer\"  and then a new executive committee for the year 2020 was elected.",
+            "Accepting the COVID-19 challenge promptly when everything was happening virtually, the annual general meeting of 2021 year was held on the 28th of March 2021 with great success via the zoom platform. The occasion was honoured by the presence of the president-Elect of IESL Eng. Arjuna Manamperi as the chief guest, Senior Treasurer, and the Senior Advisor of the chapter senior Prof. Jagath Manatunge, Immediate past Chairman of IESL – YMS and Chairman of IESL- JIY Eng. Navodana Kankanamge, Chairman of IESL-YMS Eng. Damith Dissanayake, Immediate past Secretary of IESL – YMS Dr. Dulini Mudunkotuwa, and Secretary of IESL-YMS Eng. Randith Dinesh.",
+            "It was no secret that the arrival of the chief guest, President-Elect of IESL Eng Arjuna Manamperi, made the AGM even more special this time. Eng. Arjuna Manamperi brought together a vast knowledge on IESL Accreditation, IESL recognition in state universities, Washington Accords, and Engineering Ethics throughout his speech. This undoubtedly made the AGM an oasis of knowledge for the participants who have joined across the country. The session was also enlightened by the speeches by the Senior Treasurer, and the Senior Advisor of the chapter, senior Prof. Jagath Manatunge and Chairman of IESL-YMS Eng. Damith Dissanayake.",
+            "Thereafter, following the official proceedings of the AGM the new members were elected as the executive committee of the IESL Student Chapter of University of Moratuwa for the reign of 2020/21 and the session was concluded after the vote of thanks by the newly appointed Chief Operating Officer Mr. Amila Premakumara while heralding the chapter’s bequest at its utmost level."
+        ],
+        "filter":"filter-agm"
+    },
+
+    {
+        "_id":8,
+        "images":[
+            "/assets/img/projects/cdp/1.png",
+            "/assets/img/projects/cdp/2.png",
+            "/assets/img/projects/cdp/3.png",
+            "/assets/img/projects/cdp/4.png",
+            "/assets/img/projects/cdp/5.png"
+        ],
+        "category":"past",
+        "name": "Continuing Professional development projects",
+        "brief": "A series of online courses related to ten engineering fields which will provide extra qualifications for our undergraduate students intend to conduct with the help of Institute of Engineers, Sri Lanka by IESL Student Chapter of the University of Moratuwa.",
+        "description": [
+            "When the covid 19 pandemic hit the world, no one was ready for that kind of a challenge. However, this era is highly evolved with technology, the whole world could adapt to the changes and be able to find solutions for lots of questions with the help of new technology.",
+            "One of the areas that was completely changed was education. Since students from pre-school level to university level couldn't gather at a school or a relevant educational institution, the only option was distance learning or online learning. Even Though for some people online learning was overwhelming, the majority in the world was able to continue their education without any interruptions.  Also, for some students, especially in higher education levels, online learning was very effective. And the IESL student chapter of University of Moratuwa was able to notice the advantages of this new trend.",
+            "Since all of the students in the university are at home and continuing their education online, most of the students have some extra time after university hours. So it was suggested that to organize a series of online courses for the students with the help of the Institute of Engineers, Sri Lanka to improve the skills of the students. After some discussions within the chapter, it was decided to let the student choose what they want to learn by themself. So the students in ten different fields of engineering will have a custom made course which will provide them some extra qualifications for their future. After some surveys were done within the departments, a well-planned course outline was created for every course by the department coordinators of the IESL Student Chapter. And now the final proposals are being processed by the IESL.  Since these courses will be conducted by experts in the relevant fields, students will have a once in a lifetime opportunity to gain knowledge and get to know about what they will be really doing in their relevant jobs. Also, a certificate will be given to the students who will successfully complete the course by the IESL."
+        ],
+        "filter":"filter-cdp"
+    },
+
+    {
+        "_id":9,
+        "images":[
+            "/assets/img/projects/scholastic/1.jpg",
+            "/assets/img/projects/scholastic/2.jpg",
+            "/assets/img/projects/scholastic/3.jpg",
+            "/assets/img/projects/scholastic/4.jpg"
+        ],
+        "category":"past",
+        "name": "Scholastic",
+        "brief": "Scholastic, Mathematics Seminar Series for Ordinary Level students was successfully launched by IESL Student Chapter of the University of Moratuwa in partnership with IESL and IESL YMS in the year 2019 at the Beralihela Kande Vidyalaya, Tissamaharama.",
+        "description": [
+            "The IESL Student Chapter of the University of Moratuwa can be cited as the most outstanding IESL Student Chapter in partnership with IESL and IESL YMS, newly introduced an initiative to step up toward the community service avenue in the year 2019. That initiative was a Two-Day Mathematics seminar for Ordinary Level students and was named \"Scholastic\". The  Scholastic event was shaped with the intent to be friendly and motivate students, uplift their mathematical knowledge, and also to go beyond formal education and let the \"Miracle of Sir Einstein\" happen.",
+            "The core part of the event, the tutoring crew was assembled with experienced and enthusiastic undergraduates of the University of Moratuwa. The commencement of “Scholastic” was marked on the 18th of October 2019, at the Beralihela Kande Vidyalaya, Tissamaharama, which is located in the countryside. Throughout the seminar, students of Beralihela Kande Vidyalaya could learn many things than just mathematics.",
+            "With the invaluable support and guidance received from the Chairman of IESL YMS, the Principal, and the staff of Beralihela Kande Vidyalaya, the Scholastic seminar has successfully marked its conclusion on 19th of October 2019. The feedback received from the attendees was averring about the success of the seminar. Literary, Scholastic can be connoted as one major benefaction done for the next generation."
+        ],
+        "filter":"filter-scholastic"
+    },
+
+    {
+        "_id":10,
+        "images":[
+            "/assets/img/projects/symposiarch/1.jpg",
+            "/assets/img/projects/symposiarch/2.jpg",
+            "/assets/img/projects/symposiarch/3.jpg",
+            "/assets/img/projects/symposiarch/4.jpg",
+            "/assets/img/projects/symposiarch/5.jpg",
+            "/assets/img/projects/symposiarch/6.jpg",
+            "/assets/img/projects/symposiarch/7.jpg",
+            "/assets/img/projects/symposiarch/8.jpg",
+            "/assets/img/projects/symposiarch/9.jpg",
+            "/assets/img/projects/symposiarch/10.jpg"
+        ],
+        "category":"past",
+        "name": "Symposiarch",
+        "brief": "This is a unique initiative carried out by IESL in collaboration with YMS. Under the project, a potent project proposal prepared by the students at University of Moratuwa was selected and a team of professionals guided them to make the project a reality.",
+        "description": [
+            "\"SYMPOSIARCH\" is a novel initiative which was undertaken by IESL -YMS with the theme of \"Interact with Youth\". SYMPOSIARCH was held on the 16th of December 2019 at the CSE seminar room. The members of IESL Student Chapter of University of Moratuwa were allowed to have a friendly discussion and a deliberation on ongoing and upcoming projects to be conducted by the chapter with the executives of IESL-YMS.",
+            "As the first initiative, with the honourable presence of the chairman IESL-YMS for the year 2019/20, Eng.Navodana Kankanamge, We the IESL student chapter of University of Moratuwa was able to conduct a successful evening whilst enhancing ourselves. Further, all the department coordinators presented their projects to conduct for respective departments of engineering faculty of University of Moratuwa and all the project proposals were analyzed by Eng.Navodana Kankanamge. It was a precious moment that all the project proposals, ongoing and upcoming projects of the chapter were admired by the Eng. Navodana Kankanamge.",
+            "The media coverage of the evening was undertaken by MoraWings which is powered by our chapter. The opportunity of interacting with executives in the engineering industry was a magnificent moment for every undergraduate who participated in the SYMPOSIARCH program."
+        ],
+        "filter":"filter-symposiarch"
     }
 ]
