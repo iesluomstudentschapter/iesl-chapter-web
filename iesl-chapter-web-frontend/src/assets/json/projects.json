@@ -238,5 +238,30 @@
             "The media coverage of the evening was undertaken by MoraWings which is powered by our chapter. The opportunity of interacting with executives in the engineering industry was a magnificent moment for every undergraduate who participated in the SYMPOSIARCH program."
         ],
         "filter":"filter-symposiarch"
+    },
+
+    {
+        "_id":11,
+        "images":[
+            "/assets/img/projects/legacy-beyond/1.jpg",
+            "/assets/img/projects/legacy-beyond/2.jpg",
+            "/assets/img/projects/legacy-beyond/3.jpg",
+            "/assets/img/projects/legacy-beyond/4.jpg",
+            "/assets/img/projects/legacy-beyond/5.jpg",
+            "/assets/img/projects/legacy-beyond/6.jpg",
+            "/assets/img/projects/legacy-beyond/7.jpg",
+            "/assets/img/projects/legacy-beyond/8.jpg",
+            "/assets/img/projects/legacy-beyond/9.jpg",
+            "/assets/img/projects/legacy-beyond/10.jpg"
+        ],
+        "category":"up-coming",
+        "name": "Legacy Beyond",
+        "brief": "\"Legacy Beyond\",first ever E-Magazine of IESL student chapter of University of Moratuwa, comes to you modernising Sri Lankan Engineering Student Experience amidst the grand celebrations of its colossal decade of excellence.....",
+        "description": [
+            "\"Opportunities are created in everywhere and every time. But choosing the right opportunity in the right time would be greatest for your life to reach the destination of the success\"",
+            "\"Legacy Beyond\" the first ever E-magazine consecrating 10 years excellence of IESL Student Chapter of University of Moratuwa is about to be released  along with  the 10th Anniversary celebration ceremony.",
+            "Hope to see great attitudes of our giant characters beyond their legacy to inspire your thinking to an infinite success. It is nothing more to kickstart with variegating your professional portraiture throughout stories behind success."
+        ],
+        "filter":"filter-other"
     }
 ]
