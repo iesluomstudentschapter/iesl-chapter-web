@@ -60,9 +60,12 @@
               <p class="description">{{registration.brief}}</p>
               <br/>
               <p class="text-center">
-                <a href={{registration.link}}>
+                <!-- <a href={{registration.link}}>
                   <button type="button" class="btn btn-primary">Register</button>
-                </a>
+                </a> -->
+                <a target="_blank" (click)="onSelect(registration)">
+                  <button type="button" class="btn btn-primary">Register</button>
+              </a>
               </p>
             </div>
           </div>

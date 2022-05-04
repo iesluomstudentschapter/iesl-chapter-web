@@ -1,7 +1,9 @@
+import { RegistrationDetails } from './../../models/registration-details';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Registration } from 'src/app/models/registration';
-import { RegistrationService } from 'src/app/services/registration.service';
+import { RegistrationDetailService } from 'src/app/services/registration-details';
+
 
 @Component({
   selector: 'app-registration-details',
@@ -9,24 +11,53 @@ import { RegistrationService } from 'src/app/services/registration.service';
   styleUrls: ['./registration-details.component.css']
 })
 export class RegistrationDetailsComponent implements OnInit {
-
+  registrationDetails: RegistrationDetails[] = [];
   registrationId: any;
+  dynamicScript:any;
+  header:any;
 
-  registrations: Registration[] = [];
+  registrationDetail: RegistrationDetails = new RegistrationDetails();
 
-  registration: Registration = new Registration();
 
-  constructor(private route: ActivatedRoute, private _registrationService: RegistrationService) { }
+  constructor(private route: ActivatedRoute, private _registrationService: RegistrationDetailService) {
+     
+   }
 
   ngOnInit(): void {
-    this.registrationId = this.route.snapshot.paramMap.get('id');;
+    this.registrationId = this.route.snapshot.paramMap.get('id');
 
-    this._registrationService.getRegistrations()
-      .subscribe(
-        data => {
-          this.registration = data.filter(item => item._id == this.registrationId)[0];
-        }
-      );
+    this._registrationService.getRegistrationDetails()
+    .subscribe(
+      data => {
+     
+        this.registrationDetail= data[0];
+        this.dynamicScript=data[0].link;
+       
+        this.loadScripts(); 
+        // if(this.registrationDetails.length == 0){
+        //   this.dynamicScripts="";
+        // } else {
+        //   this.dynamicScripts=this.registrationDetails.link;
+        // }
+      }
+      
+    );
+    
   }
+
+  loadScripts() {
+    
+ const dynamicScripts =[this.dynamicScript];
+    for (let i = 0; i <dynamicScripts.length; i++) {
+      const node = document.createElement('script');
+      node.src = dynamicScripts[i];
+      node.type = 'text/javascript';
+      node.async =true;
+      node.defer=true;
+      node.charset = 'utf-8';
+      document.getElementsByTagName('head')[0].appendChild(node);
+    }
+  }
+
 
 }
