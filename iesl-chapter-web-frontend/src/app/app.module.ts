@@ -13,6 +13,7 @@ import { ProjectDetailsComponent } from './pages/project-details/project-details
 import { ProjectService } from './services/project.service';
 import { RegistrationDetailsComponent } from './pages/registration-details/registration-details.component';
 import { IeslYmsComponent } from './pages/iesl-yms/iesl-yms.component';
+import { SubmitFormComponent } from './submit-form/submit-form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { IeslYmsComponent } from './pages/iesl-yms/iesl-yms.component';
     RegistrationsComponent,
     ProjectDetailsComponent,
     RegistrationDetailsComponent,
-    IeslYmsComponent
+    IeslYmsComponent,
+    SubmitFormComponent
   ],
   imports: [
     BrowserModule,

@@ -243,18 +243,13 @@
     {
         "_id":11,
         "images":[
-            "/assets/img/projects/legacy-beyond/1.jpg",
-            "/assets/img/projects/legacy-beyond/2.jpg",
-            "/assets/img/projects/legacy-beyond/3.jpg",
-            "/assets/img/projects/legacy-beyond/4.jpg",
-            "/assets/img/projects/legacy-beyond/5.jpg",
-            "/assets/img/projects/legacy-beyond/6.jpg",
-            "/assets/img/projects/legacy-beyond/7.jpg",
-            "/assets/img/projects/legacy-beyond/8.jpg",
-            "/assets/img/projects/legacy-beyond/9.jpg",
-            "/assets/img/projects/legacy-beyond/10.jpg"
+            "/assets/img/projects/legacy-beyond/1.png",
+            "/assets/img/projects/legacy-beyond/2.png",
+            "/assets/img/projects/legacy-beyond/3.png",
+            "/assets/img/projects/legacy-beyond/4.png",
+            "/assets/img/projects/legacy-beyond/5.png"
         ],
-        "category":"up-coming",
+        "category":"past",
         "name": "Legacy Beyond",
         "brief": "\"Legacy Beyond\",first ever E-Magazine of IESL student chapter of University of Moratuwa, comes to you modernising Sri Lankan Engineering Student Experience amidst the grand celebrations of its colossal decade of excellence.....",
         "description": [
@@ -263,5 +258,92 @@
             "Hope to see great attitudes of our giant characters beyond their legacy to inspire your thinking to an infinite success. It is nothing more to kickstart with variegating your professional portraiture throughout stories behind success."
         ],
         "filter":"filter-other"
+    },
+
+	{
+        "_id":12,
+        "images":[
+            "/assets/img/projects/paving-paths-2022/1.jpeg"
+        ],
+        "category":"past",
+        "name": "Paving Paths 2022",
+        "brief": "Are you aware of the department which you are awaiting to select?",
+        "description": [
+            "Are you ready to choose the best path for you to continue further studies in Engineering? 👷‍♂️👷‍♀️",
+            "\"Paving Paths 2022\", organized by the IESL Student Chapter of University of Moratuwa is the best platform ever to get clarified your doubts regarding the selection of your specialized field in Engineering.",
+			"Join us",
+			"📌 on 19th of February",
+			"📌 from 5.30 pm to 8.00 pm",
+			"📌 via Zoom",
+			"The registrations are open now. Get registered via the link below. 👇",
+			"https://forms.gle/QtHMuZUyqfT5M3FZ7",
+			"Limited seats are available. Do not miss this rare opportunity!!!"
+        ],
+        "filter":"filter-other"
+    },
+{
+
+        "_id": 13,
+        "images": [
+            "/assets/img/projects/20th-batch-recruitment/1.jpg"
+        ],
+        "category": "on-going",
+        "name": "20th Batch Recritment",
+        "brief": "Are you waiting to a career revolution?",
+        "description": [
+            "🔆 Be a member of a reputed student organization in Sri Lanka",
+            "🔆 Showcase your own skills",
+            "🔆 Work closely with industry experts",
+
+            "We are eagerly waiting to meet our young engineering  undergraduates of the 20th batch for our future endeavours. The opportunity awaits you to build your potential to the highest possible.",
+
+            "Stay tuned!",
+
+            "Registration will open soon.  "
+        ],
+        "filter": "filter-paving-path"
+    },
+
+{
+
+        "_id": 14,
+        "images": [
+            ""
+        ],
+        "category": "up-coming",
+        "name": "AGM 2022",
+        "brief": "",
+        "description": [
+            
+        ],
+        "filter": "filter-paving-path"
+    },
+    {
+
+        "_id": 15,
+        "images": [
+            "/assets/img/projects/talk-to-uni-2022/1.jpeg"
+        ],
+        "category": "on-going",
+        "name": "Talk to University 2022",
+        "brief": "🤔 Having doubts about industry or higher education as a future engineer in this crisis? 🤔 Are you passionate about recruiting fresh ideas into the industry?",
+        "description": [
+            "While it’s wise to learn from experience, it’s wiser to learn from the experience of others.",
+               "~ Rick Warren",
+			
+            "Eng.Heminda Jayaweera, who graduated from the University of Moratuwa as an Electronics and Telecommunication Engineer, is now one of Sri   Lanka's top Tech innovation leaders and a remarkable entrepreneur in the industry. He’s the Co founder of several  startups including, Venture Frontier Lanka, Mora Ventures, Jendo Innovations, Thuru and others. He’s also serving as a board member in TRACE Sri Lanka and as a chief operating officer at SLINTEC",
+
+            "Mark your calendar and reserve your seat",
+
+            "Registration link👇",
+            "https://forms.gle/YvHp2xmtuq5DbH2N6"
+            
+
+            
+        ],
+        "filter": "filter-talk-school"
     }
+
+
+
 ]

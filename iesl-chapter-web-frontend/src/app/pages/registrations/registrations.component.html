@@ -2,72 +2,73 @@
 <section id="services" class="section-bg">
     <div class="container" data-aos="fade-up">
 
-      <div class="row">
-        <div class="col-lg-4 text-center" data-aos="fade-right">
-          <img src="assets/img/logo-iesl.png" class="img-fluid" alt="">
-        </div>
-        <div class="col-lg-7 offset-1" data-aos="fade-left">
-          <h3>IESL Student Membership Registration</h3>
+        <div class="row">
+            <div class="col-lg-4 text-center" data-aos="fade-right">
+                <img src="assets/img/logo-iesl.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-7 offset-1" data-aos="fade-left">
+                <h3>IESL Student Membership Registration</h3>
 
-          <div class="row">
-            <div class="col-sm-6">
-              <p>
-                New Registration :<br/>
-                
-                <a target="_blank" href="https://iesl.lk/mis/membership_entrance"><button type="button" class="btn btn-primary mt-3">Register</button></a><br/>
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <p>
-                Application Instructions :<br/>
-                <a target="_blank" href="https://iesl.lk/mis/application_instructions"><button type="button" class="btn btn-primary mt-3">Instructions</button></a>
-              </p>
-            </div>
-          </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            New Registration :<br/>
 
-          <div class="row">
-            <div class="col-sm-6">
-              <p>
-                Supportive Documents:<br/>
-                <a target="_blank" href="https://iesl.lk/mis/supportive_documents"><button type="button" class="btn btn-primary mt-3">Documents</button></a>
-              </p>
-            </div>
-            <div class="col-sm-6">
-              <p>
-                User Guide:<br/>
-                <a target="_blank" href="https://iesl.lk/mis/help_normal_reg"><button type="button" class="btn btn-primary mt-3">User Guide</button></a>
-              </p>
-            </div>
-          </div>          
-        </div>
-      </div>
-  
-      <header>
-        <h3 class="text-center">Events and positions Registrations</h3>
-      </header>
+                            <a target="_blank" href="https://iesl.lk/mis/membership_entrance"><button type="button" class="btn btn-primary mt-3">Register</button></a><br/>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>
+                            Application Instructions :<br/>
+                            <a target="_blank" href="https://iesl.lk/mis/application_instructions"><button type="button" class="btn btn-primary mt-3">Instructions</button></a>
+                        </p>
+                    </div>
+                </div>
 
-      <div class="container-fluid">
-        <div class="row justify-content-center">
-          <div *ngIf="noRegistration">
-            <h4 class="text-center text-secondary">No Available Registrations</h4>
-          </div>
-        </div>
-        
-        <div class="row justify-content-center">
-          <div (click)="onSelect(registration)" class="box pointer col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200" *ngFor="let registration of registrations">
-            <div *ngIf="!noRegistration">
-              <h4 class="title text-primary mt-4">{{registration.name}}</h4>
-              <p class="description">{{registration.brief}}</p>
-              <br/>
-              <p class="text-center">
-                <a href={{registration.link}}>
-                  <button type="button" class="btn btn-primary">Register</button>
-                </a>
-              </p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p>
+                            Supportive Documents:<br/>
+                            <a target="_blank" href="https://iesl.lk/mis/supportive_documents"><button type="button" class="btn btn-primary mt-3">Documents</button></a>
+                        </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>
+                            User Guide:<br/>
+                            <a target="_blank" href="https://iesl.lk/mis/help_normal_reg"><button type="button" class="btn btn-primary mt-3">User Guide</button></a>
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>    
+
+        <header>
+            <h3 class="text-center">Events and positions Registrations</h3>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div *ngIf="noRegistration">
+                    <h4 class="text-center text-secondary">No Available Registrations</h4>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div (click)="onSelect(registration)" class="box pointer col-md-6 col-lg-5" data-aos="zoom-in" data-aos-delay="200" *ngFor="let registration of registrations">
+                    <div *ngIf="!noRegistration">
+                        <h4 class="title text-primary mt-4">{{registration.name}}</h4>
+                        <p class="description">{{registration.brief}}</p>
+                        <br/>
+                        <p class="text-center">
+                            <!-- <a target="_blank" href={{registration.link}}> -->
+                            <a target="_blank" (click)="onSelect(registration)">
+                                <button type="button" class="btn btn-primary">Register</button>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 </section>

@@ -1,17 +1,165 @@
-<section id="services" class="section-bg">
-    <div class="container" data-aos="fade-up">
+<div class="container py-lg-3">
+    <br><br>
+    <div class="row">
 
-        <h3 class="text-center">{{registration.name}}</h3>
+        <div class="col-lg-10 col-md-8 mx-auto shadow border bg-white p-4 rounded">
+            <div class="shadow-sm p-3 mb-5 bg-body rounded">
+                <div class="card">
+                    <div class="card-header">
+                        <br>
+                        <h1 class="text-center fw-bolder mb-3">Calling Applications for the IESL Student Chapter of the University of Moratuwa</h1>
+                        <br>
+                    </div>
 
-        <p>
-        {{registration.description}}
-        </p>
+                </div>
+            </div>
 
-        <p class="text-center">
-            <a href={{registration.link}}>
-                <button type="button" class="btn btn-primary">Register</button>
-            </a>
-        </p>
 
+            <br><br>
+
+            <div id="ff-compose"></div>
+
+
+            <!-- <form ngNoForm [action]="url" method="POST">
+                <div id="form_alerts"></div>
+                <span class="text-danger">*Required</span>
+                <br><br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+
+                            <label for="entry.1781500597" class="form-label"> <div class="fw-bold">Name   <span class="text-danger">*</span></div> <div class="fst-italic"> First and last name (e.g. A.B.C. Perera)</div>
+                               </label>
+                            <input type="text" name="entry.1781500597" class="form-control" id="formGroupExampleInput" placeholder="Enter first and last name here" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.790712909" class="form-label"><div class="fw-bold">Preferred Name  <span class="text-danger">*</span></div><div class="fst-italic"> Eg. Ashan Perera</div>
+                               </label>
+                            <input type="text" name="entry.790712909" class="form-control" id="formGroupExampleInput2" placeholder="Enter preferred name here" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.1640447617" class="form-label"><div class="fw-bold">Email <span class="text-danger">*</span></div><div class="fst-italic"> Personal email is preferred</div>
+                               </label>
+                            <input type="email" name="entry.1640447617" class="form-control" id="formGroupExampleInput2" placeholder="Enter email address here" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.297979220" class="form-label"><div class="fw-bold">Contact Number  <span class="text-danger">*</span></div><div class="fst-italic">Format: 0701234345</div>
+                                </label>
+                            <input type="tel" name="entry.297979220" class="form-control" id="formGroupExampleInput2" placeholder="Enter contact number here" pattern="[0-9]{10}" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.1896266809" class="form-label"><div class="fw-bold">Contact Number for WhatsApp <span class="text-danger">*</span></div><div class="fst-italic">Format: 0701234345</div></label>
+                            <input type="tel" name="entry.1896266809" class="form-control" id="formGroupExampleInput2" placeholder="Enter contact number for whatsapp  here" pattern="[0-9]{10}" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.1793544257" class="form-label"><div class="fw-bold">University Index Number  <span class="text-danger">*</span></div></label>
+                            <input type="tel" name="entry.1793544257" class="form-control" id="formGroupExampleInput2" placeholder="Enter university index number here" required>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.977183813" class="form-label"><div class="fw-bold">Department <span class="text-danger">*</span></div></label>
+                            <select name="entry.977183813" class="form-select" aria-label="Default select example" required>
+                            <option selected>Choose</option>
+                            <option value="Civil Engineering">Civil Engineering</option>
+                            <option value="Computer Science Engineering">Computer Science and Engineering</option>
+                            <option value="Chemical & Process Engineering">Chemical & Process Engineering</option>
+                            <option value="Earth Resources Engineering">Earth Resources Engineering</option>
+                            <option value="Electrical Engineering">Electrical Engineering</option>
+                            <option value="Biomedical Engineering">Biomedical Engineering</option>
+                            <option value="Electronic and Telecommunication Engineering">Electronic and Telecommunication Engineering</option>
+                            <option value="Mechanical Engineering">Mechanical Engineering</option>
+                            <option value="Materials Engineering">Materials Engineering</option>
+                            <option value="Textile and Apparel Engineering">Textile and Apparel Engineering</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="entry.1078004677" class="form-label"><div class="fw-bold">Which pillar are you interested in?  <span class="text-danger">*</span></div></label>
+                            <div class="form-check">
+                                <input name="entry.1078004677" class="form-check-input" type="radio" id="flexRadioDefault1" value="Editorial Pillar" required>
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Editorial Pillar
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" name="entry.1078004677" type="radio" id="flexRadioDefault2" value="Marketing Pillar">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Marketing Pillar
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" name="entry.1078004677" type="radio" id="flexRadioDefault3" value="Operation Pillar">
+                                <label class="form-check-label" for="flexRadioDefault3">
+                                    Operation Pillar
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" name="entry.1078004677" type="radio" id="flexRadioDefault4" value="Public Relations Pillar">
+                                <label class="form-check-label" for="flexRadioDefault4">
+                                    Public Relations Pillar
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                 <div class="card">
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label"><div class="fw-bold"  >Add an up to date CV here <span class="text-danger">*</span></div></label>
+                            <input class="form-control" type="file" id="formFile" name="entry.1092184327" value required>
+                        </div>
+                    </div>
+                </div> 
+
+                <br>
+                <div>
+                    <button class="btn btn-primary me-2" type="submit" onclick="loginMethod()">Submit the form!</button>
+                    <button class="btn btn-danger" type="reset">Clear the form!</button>
+                </div>
+            </form> -->
+        </div>
     </div>
-</section>
+</div>
+<br><br>
