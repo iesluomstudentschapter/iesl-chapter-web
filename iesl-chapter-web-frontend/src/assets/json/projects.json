@@ -243,18 +243,13 @@
     {
         "_id":11,
         "images":[
-            "/assets/img/projects/legacy-beyond/1.jpg",
-            "/assets/img/projects/legacy-beyond/2.jpg",
-            "/assets/img/projects/legacy-beyond/3.jpg",
-            "/assets/img/projects/legacy-beyond/4.jpg",
-            "/assets/img/projects/legacy-beyond/5.jpg",
-            "/assets/img/projects/legacy-beyond/6.jpg",
-            "/assets/img/projects/legacy-beyond/7.jpg",
-            "/assets/img/projects/legacy-beyond/8.jpg",
-            "/assets/img/projects/legacy-beyond/9.jpg",
-            "/assets/img/projects/legacy-beyond/10.jpg"
+            "/assets/img/projects/legacy-beyond/1.png",
+            "/assets/img/projects/legacy-beyond/2.png",
+            "/assets/img/projects/legacy-beyond/3.png",
+            "/assets/img/projects/legacy-beyond/4.png",
+            "/assets/img/projects/legacy-beyond/5.png"
         ],
-        "category":"up-coming",
+        "category":"past",
         "name": "Legacy Beyond",
         "brief": "\"Legacy Beyond\",first ever E-Magazine of IESL student chapter of University of Moratuwa, comes to you modernising Sri Lankan Engineering Student Experience amidst the grand celebrations of its colossal decade of excellence.....",
         "description": [
@@ -263,5 +258,329 @@
             "Hope to see great attitudes of our giant characters beyond their legacy to inspire your thinking to an infinite success. It is nothing more to kickstart with variegating your professional portraiture throughout stories behind success."
         ],
         "filter":"filter-other"
-    }
+    },
+	{
+    	"_id": 12,
+    	"images": [
+        	"/assets/img/projects/talk-to-uni-2021/1.jpg",
+        	"/assets/img/projects/talk-to-uni-2021/2.jpg",
+        	"/assets/img/projects/talk-to-uni-2021/3.jpg"
+    	],
+    	"category": "past",
+    	"name": "Talk to University - 2021",
+    	"brief": "Explore the benefits of IESL membership and gain insights into the engineering field at Talk to University 2021.",
+    	"description": [
+        "With anticipation building, engineering undergraduates eagerly gathered to explore the benefits of IESL membership at 'Talk to University 2021.' The event, held on October 23rd, 2021, via the Zoom platform, provided a platform for students to gain invaluable insights into the engineering field and the advantages of IESL affiliation.",
+        "Chaired by Eng. Shabry Samoon, the panel discussion featured esteemed professionals, including Prof. Ranjith Dissanayake, Eng. M.G. Hemachandra, Eng. Damith Disanayaka, and Eng. Pravin Maduwantha, Past Chairman of IESL Student Chapter.",
+        "Throughout the event, participants were treated to enlightening discussions on various aspects of engineering careers and the significance of IESL membership. The panelists shared their expertise and experiences, offering guidance on navigating the challenges and opportunities in the field. Attendees had the opportunity to interact with the panelists, clarifying doubts and seeking advice on their career paths.",
+        "Moreover, attendees were not only enriched with knowledge but also had the chance to win exclusive IESL merchandise, adding excitement to the event. As the event concluded, participants left with a deeper understanding of the benefits of IESL membership and newfound inspiration to pursue their engineering aspirations. 'Talk to University 2021' proved to be a transformative experience, empowering students to embark on their engineering journey with confidence and clarity."
+    ],
+    	"filter": "filter-other"
+},
+	{
+    	"_id": 13,
+    	"images": [
+        	"/assets/img/projects/talk-to-uni-2022/1.jpeg"
+    ],
+    	"category": "past",
+    	"name": "Talk to University - 2022",
+    	"brief": "Join the enlightening discourse on navigating challenges faced by engineers at Talk to University 2022.",
+    	"description": [
+        "The 'Talk to University 2022' webinar, hosted by the IESL Student Chapter of the University of Moratuwa, unfolded as an enlightening discourse on navigating the challenges faced by engineers amidst the ongoing crisis. Held on July 30th, 2022, via the Zoom platform, the event brought together aspiring engineers and esteemed professionals to explore avenues for career development, entrepreneurship, and innovation in tumultuous times.",
+        "The panel discussion, centered around the theme of 'What will happen to engineers in this crisis and what can engineers do for overcoming this by career development, entrepreneurship, and innovations,' provided invaluable insights and actionable strategies for attendees to thrive in the face of adversity.",
+        "Distinguished panelists, including [insert names of the panelists], shared their expertise and experiences, offering guidance on leveraging opportunities and mitigating challenges in the engineering landscape. Attendees were encouraged to harness their creativity, adaptability, and resilience to emerge stronger from the crisis.",
+        "As the event concluded, participants departed equipped with newfound knowledge and inspiration to chart their paths towards success in the dynamic world of engineering."
+    ],
+    	"filter": "filter-other"
+},
+	{
+    	"_id":14,
+		"images":[
+            "/assets/img/projects/skillup-1.0/1.jpg",
+            "/assets/img/projects/skillup-1.0/2.jpg",
+            "/assets/img/projects/skillup-1.0/3.jpg",
+            "/assets/img/projects/skillup-1.0/4.jpg",
+            "/assets/img/projects/skillup-1.0/5.jpg",
+            "/assets/img/projects/skillup-1.0/6.jpg",
+            "/assets/img/projects/skillup-1.0/7.jpg",
+            "/assets/img/projects/skillup-1.0/8.jpg",
+            "/assets/img/projects/skillup-1.0/9.jpg",
+            "/assets/img/projects/skillup-1.0/10.jpg",
+            "/assets/img/projects/skillup-1.0/11.jpg",
+            "/assets/img/projects/skillup-1.0/12.jpg",
+			"/assets/img/projects/skillup-1.0/13.jpg",
+			"/assets/img/projects/skillup-1.0/14.jpg",
+            "/assets/img/projects/skillup-1.0/15.jpg"
+        ],
+		"category":"past",
+    	"name": "SkillUp 1.0",
+    	"brief": "SkillUp 1.0 was a professional skill development program tailored exclusively for the members of the IESL Student Chapter at the University of Moratuwa, held on January 4th, 2023. The event aimed to elevate skills and empower members for future endeavors.",
+    	"description": [
+        "We are thrilled to announce the resounding success of SkillUp 1.0, a professional skill development program tailored exclusively for the members of the IESL Student Chapter at the University of Moratuwa. Held on Wednesday, January 4th, 2023, at the Civil Engineering Research Centre (CERC), Civil Engineering Department, this event aimed to elevate skills to the highest level and empower our members for future endeavors.",
+        "From hands-on training sessions to expert-led workshops, SkillUp 1.0 provided a diverse range of opportunities for our members to enhance their knowledge and gain valuable experience. The dedication and hard work of the participants were palpable throughout the day, as they actively engaged with the material and left the program with a renewed sense of confidence and a sharper set of skills.",
+        "The event fostered an environment of learning, growth, and camaraderie, as members came together to support each other on their professional development journeys. We are immensely proud of the achievements of our participants and eagerly anticipate the positive impact that SkillUp 1.0 will have on the future of our chapter."
+    ],
+    	"filter": "filter-skill-development"
+	},
+
+	{
+    	"_id": 15,
+    	"images": [
+        	"/assets/img/projects/paving-paths-2023/1.jpg",
+			"/assets/img/projects/paving-paths-2023/2.jpg",
+			"/assets/img/projects/paving-paths-2023/3.jpg",
+			"/assets/img/projects/paving-paths-2023/4.jpg"
+    	],
+    	"category": "past",
+    	"name": "Paving Paths 2023",
+    	"brief": "Paving Paths is an annual project organized by the IESL Students chapter of the University of Moratuwa, aimed at the most recent batch of engineering students. It provides a platform for students to interact with industry professionals, addressing their concerns about the industry, academics, and their future in engineering.",
+    	"description": [
+        "Paving Paths is a project organized by the IESL Students chapter of the University of Moratuwa each year, targeting the most recent batch of engineering students in our university. The main focus of the project is to create an environment where students can interact with industry professionals and address their problems and concerns about the industry, academics, or any related issues with their future in engineering.",
+        "Paving Paths 2023 was successfully concluded with the participation of four well-reputed engineers in Sri Lanka who have been helpful to the growth of engineering: Prof. Rangika Umesh Halwathura, Dr. Lihil Uthpala Subasinghe, Eng. Kalana Bamunuarachchi, and Eng. Heminda Jayaweera. Paving Paths 2023 featured a panel discussion where the organizing committee collected the most common problems from the students in our university via online data collection. This measure was taken to reduce time since time is precious and limited for both our invited guests and fellow students.",
+        "The panel of experts clearly explained their views and provided the industry's perspective on the problems put forward. After the discussion, the students attending the session had the opportunity to physically interact with the panel to address their concerns.",
+        "At the end of the day, Paving Paths 2023 was concluded as a successful event. Many students expressed their ideas and insisted on conducting more sessions to meet new professionals. It was evident that Paving Paths is indeed paving the paths of students with the advice and guidance of professionals.",
+        "Miss. Viduni Gunawardhana, Miss. Yasanthi Jayapathma, Mr. Sachithra Nilman, and Mr. Thisaru Samarasinghe co-chaired the project with the support of all the members of IESL Students chapter and the guidance of our chairman at the time, Mr. Charith Rathnayake, and the executive committee."
+    ],
+    	"filter": "filter-paving-paths-2023"
+},
+	{
+    	"_id": 16,
+    	"images": [
+        	"/assets/img/projects/ignitment-20/1.jpg",
+        	"/assets/img/projects/ignitment-20/2.jpg",
+        	"/assets/img/projects/ignitment-20/3.jpg",
+        	"/assets/img/projects/ignitment-20/4.jpg",
+        	"/assets/img/projects/ignitment-20/5.jpg",
+        	"/assets/img/projects/ignitment-20/6.jpg",
+        	"/assets/img/projects/ignitment-20/7.jpg",
+        	"/assets/img/projects/ignitment-20/8.jpg",
+        	"/assets/img/projects/ignitment-20/9.jpg",
+        	"/assets/img/projects/ignitment-20/10.jpg",
+        	"/assets/img/projects/ignitment-20/11.jpg",
+        	"/assets/img/projects/ignitment-20/12.jpg",
+        	"/assets/img/projects/ignitment-20/13.jpg",
+        	"/assets/img/projects/ignitment-20/14.jpg",
+        	"/assets/img/projects/ignitment-20/15.jpg",
+        	"/assets/img/projects/ignitment-20/16.jpg",
+        	"/assets/img/projects/ignitment-20/17.jpg",
+        	"/assets/img/projects/ignitment-20/18.jpg"
+    	],
+    	"category": "past",
+    	"name": "Ignitment - 20",
+    	"brief": "Ignitment 20 marked a pivotal moment in the journey of the IESL Student Chapter at the University of Moratuwa. It aimed to identify dedicated and visionary individuals to assume key positions and lead the community into a future filled with innovation and achievement.",
+    	"description": [
+        "The Ignitment 20 event organized by the IESL Student Chapter of the University of Moratuwa represented a significant milestone in our pursuit of excellence. It served as a platform to identify and select dedicated and visionary individuals who would assume key positions within the chapter's executive committee.",
+        "During this event, members were invited to apply for various positions within the executive committee, ranging from Assistant Director positions, Pillar Heads and other important roles. The selection process involved rigorous interviews and assessments to ensure that the chosen individuals possessed the necessary skills, dedication, and vision to lead the chapter effectively.",
+        "The Ignitment 20 event was not just about filling positions; it was about redefining boundaries and igniting the future of leadership within the IESL Student Chapter. It aimed to empower the next generation of leaders to drive innovation, foster collaboration, and achieve new heights of success within our engineering community.",
+        "Join us as we embark on this journey to redefine boundaries and shape the future of leadership within the IESL Student Chapter at the University of Moratuwa."
+    	],
+    	"filter": "filter-ignitment-20"
+	},
+
+	{
+    	"_id": 17,
+    	"images": [
+        	"/assets/img/projects/kothmale-field-visit-2023/1.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/2.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/3.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/4.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/5.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/6.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/7.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/8.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/9.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/10.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/11.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/12.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/13.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/14.jpg",
+        	"/assets/img/projects/kothmale-field-visit-2023/15.jpg"
+    ],
+    	"category": "past",
+    	"name": "Field Visit",
+    	"brief": "On March 10, 2024, the IESL Student Chapter of the University of Moratuwa embarked on an enriching field visit to the Moragolla Hydropower Project and Upper Kothmale Power Station, delving deep into the heart of power generation.",
+    	"description": [
+        "On March 10, 2024, the IESL Student Chapter of the University of Moratuwa embarked on an enriching field visit to the Moragolla Hydropower Project and Upper Kothmale Power Station, delving deep into the heart of power generation. This immersive experience was made possible through the collaborative efforts of Eng. Duminda Madusanka and Eng. Y.M.C.N.B Yapa, whose dedication and guidance ensured a memorable and insightful journey for all participants.",
+        "The field visit provided an unparalleled opportunity for members to witness firsthand the intricate inner workings of these engineering marvels. From the majestic Moragolla Hydropower Project to the state-of-the-art Upper Kothmale Power Station, participants were captivated by the fusion of technology and nature in the realm of hydro engineering. It was a momentous occasion that not only expanded our understanding of power generation but also instilled a sense of awe and inspiration among all who attended.",
+        "We extend our sincere gratitude to Dr. Kamal Laksiri, the President of The Institution of Engineers, Sri Lanka, whose support and encouragement were instrumental in making this field visit a resounding success. Special thanks also go to all individuals involved in the planning and execution of this endeavor, whose unwavering dedication ensured a seamless and enriching experience for everyone involved. As we reflect on our time spent exploring these engineering wonders, we are filled with gratitude for the invaluable knowledge gained and the memories created during this unforgettable journey."
+    ],
+    	"filter": "filter-field-visit"
+},
+	{
+    	"_id": 18,
+    	"images": [
+            "/assets/img/projects/hackathon-xtreme-2023/1.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/2.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/3.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/4.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/5.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/6.jpg",
+			"/assets/img/projects/hackathon-xtreme-2023/7.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/8.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/9.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/10.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/11.jpg",
+			"/assets/img/projects/hackathon-xtreme-2023/12.jpeg",
+            "/assets/img/projects/hackathon-xtreme-2023/13.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/14.jpg",
+            "/assets/img/projects/hackathon-xtreme-2023/15.jpg"
+        ],
+    	"category": "past",
+    	"name": "Hackathon-Xtreme 2023",
+    	"brief": "The Hackathon-Xtreme 2023 brought together the brightest minds from state-sector universities across Sri Lanka in a coding extravaganza organized by the IESL Student Chapter of the University of Moratuwa. It aimed to elevate coding creativity, foster engineering talent, and highlight the prowess of young minds in problem-solving.",
+    	"description": [
+        "The Hackathon-Xtreme 2023, organized by the IESL Student Chapter of the University of Moratuwa in collaboration with IESL YMS, marked a groundbreaking event in the Sri Lankan engineering landscape. This coding extravaganza brought together the brightest minds from state-sector universities, aiming to elevate coding creativity, foster engineering talent, and highlight the prowess of young problem solvers.",
+        "The competition began with over 150 teams registering, showcasing their coding prowess through a rigorous online elimination round held on 17/10/2023. From this, the top 20 teams emerged victorious, securing their spots in the final competition held at the IESL YMS – IESL Student Chapter stall premises at BMICH on 21/10/2023.",
+        "The final competition witnessed intense coding challenges and innovative solutions, evaluated by a panel of expert judges. The winning teams were announced as follows:",
+        "1. print('Hello World') - Team Members: R.M Thakshaka Praveen, R.B Rathnayake, Lasitha Randula Amarasinghe",
+        "2. 4bit - Team Members: Patalee Narasinghe, N.P.V.N.Nawagamuwa, M.P.S Jayasinghe",
+        "3. iCoders - Team Members: Molindu Achintha, Sunera Sandaruwan, Niman Ransindu",
+        "",
+        "The success of the Hackathon-Xtreme 2023 wouldn't have been possible without the dedicated efforts of Mr. Kumudu Mohottala, Miss. Thathsarani Gamage, Mr. Chulanga Induwara, Mr. Sasindu Jayasri, Mr. Ravindu Wickramamasinghe, and the entire IESL Student Chapter team, under the guidance of Mr. Dhanuja Jayananda and the executive committee. As we celebrate this achievement, we extend our gratitude to all participants, organizers, and supporters who contributed to making this event a resounding success. The journey of coding excellence continues, driven by the passion and innovation of our engineering community."
+    ],
+      	"filter": "filter-hackathon-xtreme"
+},
+	{
+    	"_id": 19,
+
+    	"images": [
+        	"/assets/img/projects/ignitment-21/1.jpg",
+        	"/assets/img/projects/ignitment-21/2.jpg",
+        	"/assets/img/projects/ignitment-21/3.jpg",
+        	"/assets/img/projects/ignitment-21/4.jpg",
+        	"/assets/img/projects/ignitment-21/5.jpg",
+        	"/assets/img/projects/ignitment-21/6.jpg",
+        	"/assets/img/projects/ignitment-21/7.jpg",
+        	"/assets/img/projects/ignitment-21/8.jpg",
+        	"/assets/img/projects/ignitment-21/9.jpg"
+    	],
+		"category":"past",
+    	"name": "Ignitment - 21",
+    	"brief": "The Ignitement 21 stands as the ultimate quest and testament within the 21st batch to find the best among the best to uphold the legacy of the IESL Student Chapter at the University of Moratuwa.",
+    	"description": [
+        "The Ignitement 21 stands as the ultimate quest and testament within the 21st batch to find the best among the best to uphold the legacy of the IESL Student Chapter at the University of Moratuwa. The event was initiated by brainstorming with the 21st batch about the IESL student chapter and the event. The excitement and enthusiasm shown by the 21st batch to join the Chapter were vividly evident in the registration process. The interview sessions lasted for four insightful days with 400+ enthusiastic applicants applying for the interview, resulting in 350+ enthralling interview sessions. The 20th batch primarily led the interview panel to unearth valuable gems among the 21st batch, to foster an empowering family and a strong bond within the chapter.",
+        "The event was a huge success with many exciting and insightful interview sessions. The 21st batch exhibited great character and skills. It was with great difficulty that the interview panel selected the future legacy crafters of our chapter. This significant event concluded with the welcoming of 54 fresh and highly talented professionals to our chapter."
+    	],
+    	"filter": "filter-ignitement"
+},
+	{
+    	"_id": 20,
+    	"images": [
+        	"/assets/img/projects/iesl-day-2024/1.jpg",
+        	"/assets/img/projects/iesl-day-2024/2.jpg",
+        	"/assets/img/projects/iesl-day-2024/3.jpg",
+        	"/assets/img/projects/iesl-day-2024/4.jpg",
+        	"/assets/img/projects/iesl-day-2024/5.jpg",
+        	"/assets/img/projects/iesl-day-2024/6.jpg",
+        	"/assets/img/projects/iesl-day-2024/7.jpg",
+        	"/assets/img/projects/iesl-day-2024/8.jpg",
+        	"/assets/img/projects/iesl-day-2024/9.jpg",
+        	"/assets/img/projects/iesl-day-2024/10.jpg",
+        	"/assets/img/projects/iesl-day-2024/11.jpg",
+        	"/assets/img/projects/iesl-day-2024/12.jpg",
+        	"/assets/img/projects/iesl-day-2024/13.jpg",
+        	"/assets/img/projects/iesl-day-2024/14.jpg",
+        	"/assets/img/projects/iesl-day-2024/15.jpg",
+        	"/assets/img/projects/iesl-day-2024/16.jpg",
+        	"/assets/img/projects/iesl-day-2024/17.jpg"
+    	],
+    	"category": "past",
+    	"name": "IESL Day 2024",
+    	"brief": "The \"IESL Day 2024,\" organized by the IESL Student Chapter of the University of Moratuwa, focused on empowering engineering undergraduates with the theme of \"Engineering Excellence and Entrepreneurial Innovation: Pioneering Sustainable Economic Growth in Sri Lanka.\"",
+    	"description": [
+        "The \"IESL Day 2024,\" organized by the IESL Student Chapter of the University of Moratuwa and held on 27th of January 2024, focused on empowering engineering undergraduates with the theme of \"Engineering Excellence and Entrepreneurial Innovation: Pioneering Sustainable Economic Growth in Sri Lanka.\" The event aimed to enlighten students about the significance of IESL, career development post-graduation, industry challenges, and soft skill enhancement. It offered valuable insights into global engineering trends and encouraged students to become visionary leaders in sustainability. The event facilitated IESL Student Membership, promoting engagement with the engineering community. By advocating Sustainable Development Goals (SDGs), it fostered responsible citizenship and entrepreneurship among undergraduates, encouraging them to develop innovative solutions for real-world problems.",
+        "The panel discussion titled \"Engineering for Social Economic Recovery in Sri Lanka through a Sustainable Innovative Entrepreneurship Approach\" highlighted the pivotal role of engineering in driving economic recovery through sustainable and innovative entrepreneurship.",
+        "Mr. Chanaka Sudesh Rathnayaka's speech on \"Emerging Technologies Enable Creative Entrepreneurs to Build Novel Products\" underscored the transformative power of technology in enabling entrepreneurs to develop groundbreaking products.",
+        "The session led by YMS Chairman Eng. Dushyantha Wanniarachchi and three other members introduced the opportunities offered to the undergraduate community by IESL YMS. This session provided valuable insights into the resources, mentorship, and networking opportunities available through IESL YMS, empowering undergraduates to advance their careers and entrepreneurial endeavors in the engineering field.",
+        "The event concluded with the recognition of past office bearers and members, with certificates awarded to acknowledge their contributions to the IESL student chapter. IESL DAY 2024 also included a special segment to recognize and celebrate outstanding achievements within the IESL student chapter. Awards were presented to individuals who demonstrated exceptional dedication, leadership, and performance throughout the year 2023.",
+        "The opportunity to obtain \"IESL Student Membership\" was facilitated for engineering undergraduates, with over 800 registrations processed by a panel of chartered engineers.",
+        "Overall, \"IESL Day 2024\" strengthened the bond between IESL, IESL YMS, and the university's undergraduates, fostering a collaborative environment for growth and prosperity in Sri Lanka."
+    	],
+    	"filter": "filter-iesl-day-2024"
+},
+
+	{
+   	 	"_id": 21,
+    	"images": [
+            "/assets/img/projects/yms-field-visit-trace-expert-city/1.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/2.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/2.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/4.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/5.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/6.jpg",
+			"/assets/img/projects/yms-field-visit-trace-expert-city/7.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/8.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/9.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/10.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/11.jpg",
+			"/assets/img/projects/yms-field-visit-trace-expert-city/12.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/13.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/14.jpg",
+            "/assets/img/projects/yms-field-visit-trace-expert-city/15.jpg"
+        ],
+    	"category": "past",
+    	"name": "YMS Field Visit",
+    	"brief": "On February 7, 2024, the IESL student chapters from various universities embarked on an invaluable field visit to Trace Expert City, Maradana. The visit facilitated a rich exchange of knowledge and perspectives, thanks to the involvement of multiple universities.",
+    	"description": [
+        "On February 7, 2024, we were privileged to embark on an invaluable field visit to Trace Expert City, Maradana. The involvement of IESL student chapters from the University of Moratuwa, University of Peradeniya, University of Sri Jayawardanapura, University of Jaffna, and the Open University greatly enhanced our field visit by facilitating a rich exchange of knowledge and perspectives.",
+        "We extend our heartfelt gratitude to Trace Expert City, Orel IT, Magicbit, SLT Mobitel, and Vega Innovations for their warm welcome and the sharing of their vast knowledge and insights.",
+        "Special appreciation is extended to Dr. Sankalpa Gamvarige, Mr. Heminda Jayaweera, Mr. Migara Amithodana, and all individuals who played a pivotal role in the success of this field visit. Your dedication and support have greatly enriched our learning experience.",
+        "We would also like to convey our profound thanks to the IESL - YMS for organizing such a wonderful session. It was not only educational but also an inspiring journey that has undoubtedly contributed to our academic and professional growth. This field visit has left a lasting impression on all participants, for which we are sincerely thankful."
+    ],
+    "filter": "filter-field-visit"
+},
+	{
+    	"_id": 22,
+    	"images": [
+        	"/assets/img/projects/movie-marathon-2024/1.jpg",
+			"/assets/img/projects/movie-marathon-2024/2.jpg",
+			"/assets/img/projects/movie-marathon-2024/3.jpg",
+			"/assets/img/projects/movie-marathon-2024/4.jpg"
+    	],
+    	"category": "past",
+    	"name": "Movie Marathon",
+    	"brief": "The Movie Marathon is organized by the IESL Student Chapter of the University of Moratuwa with the primary intention of raising funds for the execution of future projects conducted by itself while providing entertainment to the student community within the university.",
+    	"description": [
+        "Since most of the students in our university are stuck in tedious schedules, they always seek chances for entertainment. We as the IESL Student Chapter saw this as a chance to raise funds while providing entertainment to an affordable price. With that, we moved to the idea of conducting a film festival named “Movie Marathon”.",
+        "Here we expect to give a cinematic experience over 3 nights featuring 3 films which most of the people are anticipated to watch. The films we are planning to show are, Mission Impossible, Hi Nanna and Garudan, covering different cultures and a wide spectrum of tastes. We execute our marketing plan through captivating flyers and captions. Tickets selling will be conducted through 21 batch members and volunteers from 22 batch.",
+        "With the successful implementation of this project we expect to achieve expected profits which will be used for funding upcoming events, ensuring financial stability and sustainability."
+    ],
+    	"filter": "filter-movie-marathon"
+},
+{
+    "_id": 23,
+    "images": [
+        "/assets/img/projects/talk-to-uni-2024/1.jpg",
+		"/assets/img/projects/talk-to-uni-2024/2.jpg"
+    ],
+    "category": "on-going",
+    "name": "Talk to Uni",
+    "brief": "\"Talk to Uni\" is a panel discussion aimed at addressing the brain drain issue faced by young engineers and promoting the entrepreneurial mindset.",
+    "description": [
+        "\"Talk to Uni\", organized by the IESL Student Chapter of the University of Moratuwa, is a pioneering initiative confronting the challenge of brain drain in the engineering industry. The project provides a platform for undergraduates to engage in discussions with professionals, inspiring them to pursue prosperous careers within Sri Lanka and contribute to the nation's engineering sector.",
+        "The distinguished panel for \"Talk to Uni\" includes Mr. Dhanika Perera, a top-ranked businessman, Prof. K.T.M.U. Hemapala, a distinguished academic, and Eng. Dushyantha Wanniarachchi, an IESL representative. The discussion aims to raise awareness about local opportunities, promote an entrepreneurial mindset, and develop skills among engineering students. Additionally, it introduces networking opportunities and access to resources for young engineering undergraduates.",
+        "This one-day event targets engineering undergraduates of the University of Moratuwa, engaging approximately 200 participants. It consists of two segments: a panel discussion where panelists address the subject issues, and a Q&A session where undergraduates interact, discuss, and resolve related problems. \"Talk to Uni\" creates a platform to equip young engineers to face the evolving engineering landscape."
+    ],
+    "filter": "filter-talk-to-uni"
+},
+{
+    "_id": 24,
+    "images": [
+        "/assets/img/projects/unisphere-cricket-tournament-2024/1.jpg",
+        "/assets/img/projects/unisphere-cricket-tournament-2024/2.jpg",
+        "/assets/img/projects/unisphere-cricket-tournament-2024/3.jpg"
+    ],
+    "category": "on-going",
+    "name": "Unisphere Interchapter Cricket Tournament",
+    "brief": "Unisphere is the first Inter-Chapter Cricket Tournament held between all the student chapters of the IESL along with the participation of Alumni teams.",
+    "description": [
+        "The IESL Student Chapter of University Moratuwa, in collaboration with IESL and IESL-YMS, plans to host the inaugural Inter-Chapter Cricket Tournament - Unisphere. This event aims to promote both collaboration and competition among student chapters and Alumni teams, fostering strong connections and developing vital skills such as leadership, teamwork, and cooperation.",
+        "The tournament will feature 8 Student chapters and Alumni teams competing for the championship title. It will be a one-day event filled with matches, an awards ceremony, and an unforgettable after-party for all participating teams and members.",
+        "Extensive planning has ensured that distant chapters will be provided with accommodation and meals throughout the event. Additionally, the design and decoration aspects of the event will be divided among the participating chapters to encourage collaboration and communication, ultimately building camaraderie and strong connections between members."
+    ],
+    "filter": "filter-unisphere-cricket-tournament"
+}
+
+
+
 ]
